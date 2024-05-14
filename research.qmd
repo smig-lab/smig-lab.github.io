@@ -1,0 +1,11 @@
+---
+title: "Research"
+---
+
+## Algebraic Statistics
+
+## Network Science
+
+## Information Geometry
+
+
