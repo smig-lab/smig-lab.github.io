@@ -1,7 +1,0 @@
----
-title: "Publications"
-bibliography: publications.bib
-biblio-title: "Recent Publications"
-nocite: |
-  @*
----
