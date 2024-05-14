@@ -1,0 +1,86 @@
+[
+  {
+    "objectID": "people.html",
+    "href": "people.html",
+    "title": "People",
+    "section": "",
+    "text": "Claudia Fassino\nRicercatrice di Analisi Numerica\nfassino at dima.unige.it\nEva Riccomagno\nProfessor of Statistics\nPresident Consortium IANUA\nriccomagno at dima.unige.it\nFrancesco Porro\nProfessor of Statistics\nporro at dima.unige.it\nSara Sommariva\nRicercatore a tempo determinato\nsara.sommariva at unige.it\nGiulia Bertagnolli\nRicercatore a tempo determinato\nbertagnolli at dima.unige.it\nMuhammad Shoaib (PhD student)\nJack Storror Carter (post-doc)\nGiacomo Lancia (post-doc)\nOrlando Marigliano (Marie Skłodowska-Curie Fellow)"
+  },
+  {
+    "objectID": "people.html#current-members",
+    "href": "people.html#current-members",
+    "title": "People",
+    "section": "",
+    "text": "Claudia Fassino\nRicercatrice di Analisi Numerica\nfassino at dima.unige.it\nEva Riccomagno\nProfessor of Statistics\nPresident Consortium IANUA\nriccomagno at dima.unige.it\nFrancesco Porro\nProfessor of Statistics\nporro at dima.unige.it\nSara Sommariva\nRicercatore a tempo determinato\nsara.sommariva at unige.it\nGiulia Bertagnolli\nRicercatore a tempo determinato\nbertagnolli at dima.unige.it\nMuhammad Shoaib (PhD student)\nJack Storror Carter (post-doc)\nGiacomo Lancia (post-doc)\nOrlando Marigliano (Marie Skłodowska-Curie Fellow)"
+  },
+  {
+    "objectID": "people.html#former-members",
+    "href": "people.html#former-members",
+    "title": "People",
+    "section": "Former members",
+    "text": "Former members\n\nMaria Piera Rogantin\n\nIvano Repetto\n\nFederico Carli (currently in Axpo Italia)\nElena Pesce (currently in AXA XL)\nGiacomo Siri (currently in Dompé)\nEleonora Saggini (currently math teacher at Gastaldi-Abba)\nVirginia Pirino (currently senior analytics specialist in Costa Crociere)\nPiotr Zwiernik (currently associate professor in Toronto University)\nGherardo Varando"
+  },
+  {
+    "objectID": "news/2024-03-01-seminar-bertagnolli/index.html",
+    "href": "news/2024-03-01-seminar-bertagnolli/index.html",
+    "title": "Ranks, Centers, and dispersion measures for networked and metric data",
+    "section": "",
+    "text": "References\n\nOja, Hannu. 1983. “Descriptive Statistics for Multivariate Distributions.” Statistics & Probability Letters 1 (6): 327–32. https://doi.org/10.1016/0167-7152(83)90054-8.\n\n\nTukey, John W. 1975. “Mathematics and the Picturing of Data.” In Proceedings of the International Congress of Mathematicians, Vancouver, 1975, 2:523–31."
+  },
+  {
+    "objectID": "research.html#network-science",
+    "href": "research.html#network-science",
+    "title": "Research",
+    "section": "Network Science",
+    "text": "Network Science"
+  },
+  {
+    "objectID": "research.html#information-geometry",
+    "href": "research.html#information-geometry",
+    "title": "Research",
+    "section": "Information Geometry",
+    "text": "Information Geometry"
+  },
+  {
+    "objectID": "events.html",
+    "href": "events.html",
+    "title": "News & Events",
+    "section": "",
+    "text": "Statistics for innovation: Intermidiate conference of the Italian Statistical Society\n\n\n\nconference\n\n\nSIS\n\n\n\n\n\n\n\n\n\n\nMay 15, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGroup-wise comparison of connectivity graphs\n\n\n\nseminar\n\n\n\nabstract here\n\n\n\nSara Sommariva\n\n\nApr 24, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRanks, Centers, and dispersion measures for networked and metric data\n\n\n\nseminar\n\n\n\nAt the basis of non-parametric statistics there is the concept of ranks, which presumes the possibility of ordering data points. A natural order relation on a multivariate…\n\n\n\nGiulia Bertagnolli\n\n\nMar 1, 2024\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications",
+    "section": "",
+    "text": "References\n\nBarani, Simone, Claudia Mascandola, Eva Riccomagno, Daniele Spallarossa, Dario Albarello, Gabriele Ferretti, Davide Scafidi, Paolo Augliera, and Marco Massa. 2018. “Long-Range Dependence in Earthquake-Moment Release and Implications for Earthquake Occurrence Probability.” SCIENTIFIC REPORTS 8, fasc. 1 (1): 1–11. https://doi.org/10.1038/s41598-018-23709-4.\n\n\nBarani, S., C. Mascandola, E. Riccomagno, D. Spallarossa, D. Albarello, G. Ferretti, D. Scafidi, P. Augliera Massa, and M. 2018. “Long-Range Dependence in the Seismic Process and Implications for Earthquake Forecasting.”\n\n\nCarli, Federico, Manuele Leonelli, Eva Riccomagno, and Gherardo Varando. 2022. “The r Package Stagedtrees for Structural Learning of Stratified Staged Trees.” JOURNAL OF STATISTICAL SOFTWARE 102 (6): 1–30. https://doi.org/10.18637/jss.v102.i06.\n\n\nCarli, Federico, Elena Pesce, Francesco Porro, and Eva Riccomagno. 2024. “Combination of Autoregressive Graphical Models and Time Series Bootstrap Methods for Risk Management in Marine Insurance.” SOCIO-ECONOMIC PLANNING SCIENCES 92: 1–13. https://doi.org/10.1016/j.seps.2024.101833.\n\n\nFassino, Claudia, Moeller Hans Michael, and Eva Riccomagno. 2018. “BM Algorithms for Noisy Data and Implicit Regression Modelling.” ADVANCED STUDIES IN PURE MATHEMATICS. Mathematical Society of Japan. https://doi.org/10.2969/aspm/07710087.\n\n\nFassino, Claudia, Eva Riccomagno, and MARIA PIERA Rogantin. 2019. “Cubature Rules and Expected Value of Some Complex Functions.” JOURNAL OF ALGEBRAIC STATISTICS 10 (1): 114–27. https://doi.org/10.18409/jas.v10i1.72.\n\n\nGörgen, Christiane, Anna Bigatti, Eva Riccomagno, and Jim Q. Smith. 2018. “Discovery of Statistical Equivalence Classes Using Computer Algebra.” INTERNATIONAL JOURNAL OF APPROXIMATE REASONING 95: 167–84. https://doi.org/10.1016/j.ijar.2018.01.003.\n\n\nLeonelli, Manuele, and Eva Riccomagno. 2022. “A Geometric Characterization of Sensitivity Analysis in Monomial Models.” INTERNATIONAL JOURNAL OF APPROXIMATE REASONING 151: 64–84. https://doi.org/10.1016/j.ijar.2022.09.006.\n\n\nLeonelli, Manuele, Eva Riccomagno, and Jim Q. Smith. 2020. “Coherent Combination of Probabilistic Outputs for Group Decision Making: An Algebraic Approach.” OR SPECTRUM 42 (2) (2): 499–528. https://doi.org/10.1007/s00291-020-00588-8.\n\n\nPesce, Elena, Francesco Porro, and Eva Riccomagno. 2023. “Large Datasets, Bias and Model‐oriented Optimal Design of Experiments.” QUALITY AND RELIABILITY ENGINEERING INTERNATIONAL 39 (2): 532–45. https://doi.org/10.1002/qre.3165.\n\n\nPesce, Elena, Fabio Rapallo, Eva Riccomagno, and Henry P. Wynn. 2023. “Generation of All Randomizations Using Circuits.” ANNALS OF THE INSTITUTE OF STATISTICAL MATHEMATICS 75 (4): 683–704. https://doi.org/10.1007/s10463-022-00860-4.\n\n\nPesce, Elena, Eva Riccomagno, and Henry P. Wynn. 2019. “Experimental Design Issues in Big Data: The Question of Bias.” Springer. https://doi.org/10.1007/978-3-030-21140-0_20.\n\n\nRapetti, R., E. C. Franchino, S. Visca, E. Riccomagno, F. Porro, D. Vittonetto, and A. Piacenza. 2023. “Observed and Perceived Pain: Findings of a Cross-Sectional Study in Hospitalized Subjects.” PAIN MANAGEMENT NURSING, 1–6. https://doi.org/10.1016/j.pmn.2023.09.011.\n\n\nRapetti, Roberta, Debora Vittonetto, Alberto Piacenza, Simona Visca, Elena Colmia Franchino, Marina Pistone, Maria Luisa Carofiglio, et al. 2022. “The Patients’ Voice with Heart Failure: Results of a Pilot Study.” GIORNALE ITALIANO DI INFERMIERISTICA 40: 84–88.\n\n\nUgolini, Alessandro, Francesco Porro, Federico Carli, Paola Agostino, Armando Silvestrini-Biavati, and Eva Riccomagno. 2023. “Probabilistic Graphical Modelling of Early Childhood Caries Development.” PLOS ONE 18 (10): 1–8. https://doi.org/10.1371/journal.pone.0293221."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "Via Dodecaneso 35 16146 Genova (GE) DIMA - Dipartimento di Matematica Università degli Studi di Genova"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "SMiG Lab",
+    "section": "",
+    "text": "The research group in Mathematical Statistics studies problems of algebraic statistics and planning of experiments, in particular graphical probabilistic models and optimal planning of experiments for large and big datasets; a recent line of research is on compositional data, investigating applications in the financial and biomedical fields, e.g. proteomic and genomic data, and developing algorithms and open-source software packages."
+  },
+  {
+    "objectID": "news/2024-05-14-sis-genova/index.html",
+    "href": "news/2024-05-14-sis-genova/index.html",
+    "title": "Statistics for innovation: Intermidiate conference of the Italian Statistical Society",
+    "section": "",
+    "text": "When: June, 16–18 2025 Where: Genoa\nWhat:\n\n\nWhen: June, 19 2025 Where: Pavia\nWhat:"
+  },
+  {
+    "objectID": "news/2024-05-14-sis-genova/index.html#main-conference",
+    "href": "news/2024-05-14-sis-genova/index.html#main-conference",
+    "title": "Statistics for innovation: Intermidiate conference of the Italian Statistical Society",
+    "section": "",
+    "text": "When: June, 16–18 2025 Where: Genoa\nWhat:\n\n\nWhen: June, 19 2025 Where: Pavia\nWhat:"
+  }
+]
