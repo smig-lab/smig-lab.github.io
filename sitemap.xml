@@ -2,11 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://smig-lab.github.io/people.html</loc>
-    <lastmod>2024-05-14T15:05:05.341Z</lastmod>
+    <lastmod>2024-05-15T09:16:20.031Z</lastmod>
+  </url>
+  <url>
+    <loc>https://smig-lab.github.io/news/2024-04-24-seminar-sommariva/index.html</loc>
+    <lastmod>2024-05-15T09:17:07.463Z</lastmod>
   </url>
   <url>
     <loc>https://smig-lab.github.io/news/2024-03-01-seminar-bertagnolli/index.html</loc>
-    <lastmod>2024-05-14T15:05:05.333Z</lastmod>
+    <lastmod>2024-05-15T09:17:35.155Z</lastmod>
+  </url>
+  <url>
+    <loc>https://smig-lab.github.io/other.html</loc>
+    <lastmod>2024-05-15T09:44:53.201Z</lastmod>
   </url>
   <url>
     <loc>https://smig-lab.github.io/research.html</loc>
@@ -14,7 +22,7 @@
   </url>
   <url>
     <loc>https://smig-lab.github.io/events.html</loc>
-    <lastmod>2024-05-14T15:05:05.329Z</lastmod>
+    <lastmod>2024-05-15T08:25:50.871Z</lastmod>
   </url>
   <url>
     <loc>https://smig-lab.github.io/publications.html</loc>
@@ -26,14 +34,22 @@
   </url>
   <url>
     <loc>https://smig-lab.github.io/index.html</loc>
-    <lastmod>2024-05-14T15:05:05.329Z</lastmod>
+    <lastmod>2024-05-15T08:13:21.079Z</lastmod>
+  </url>
+  <url>
+    <loc>https://smig-lab.github.io/teaching.html</loc>
+    <lastmod>2024-05-15T09:43:55.364Z</lastmod>
   </url>
   <url>
     <loc>https://smig-lab.github.io/news/2024-05-14-sis-genova/index.html</loc>
     <lastmod>2024-05-14T15:26:20.745Z</lastmod>
   </url>
   <url>
-    <loc>https://smig-lab.github.io/news/2024-04-24-seminar-sommariva/index.html</loc>
-    <lastmod>2024-05-14T15:05:05.337Z</lastmod>
+    <loc>https://smig-lab.github.io/news/2024-03-26-seminar-lancia.html</loc>
+    <lastmod>2024-05-15T09:23:47.199Z</lastmod>
+  </url>
+  <url>
+    <loc>https://smig-lab.github.io/news/ig-short-course.html</loc>
+    <lastmod>2024-05-15T09:11:31.521Z</lastmod>
   </url>
 </urlset>

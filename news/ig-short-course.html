@@ -6,10 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Giulia Bertagnolli">
-<meta name="dcterms.date" content="2024-03-01">
+<meta name="author" content="Giovanni Pistone">
+<meta name="dcterms.date" content="2022-11-28">
 
-<title>SMiG Lab - Ranks, Centers, and dispersion measures for networked and metric data</title>
+<title>SMiG Lab - Short course on Non-parametric Information Geometry</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -22,45 +22,25 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for citations */
-div.csl-bib-body { }
-div.csl-entry {
-  clear: both;
-  margin-bottom: 0em;
-}
-.hanging-indent div.csl-entry {
-  margin-left:2em;
-  text-indent:-2em;
-}
-div.csl-left-margin {
-  min-width:2em;
-  float:left;
-}
-div.csl-right-inline {
-  margin-left:2em;
-  padding-left:1em;
-}
-div.csl-indent {
-  margin-left: 2em;
-}</style>
+</style>
 
 
-<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../../">
-<script src="../../site_libs/quarto-html/quarto.js"></script>
-<script src="../../site_libs/quarto-html/popper.min.js"></script>
-<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -90,7 +70,7 @@ div.csl-indent {
 }</script>
 
 
-<link rel="stylesheet" href="../../styles.css">
+<link rel="stylesheet" href="../styles.css">
 </head>
 
 <body class="nav-fixed">
@@ -100,10 +80,10 @@ div.csl-indent {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../../imgs/smig-logo-small.png" alt="Statistical Modeling in Genoa" class="navbar-logo">
+    <a href="../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../imgs/smig-logo-small.png" alt="Statistical Modeling in Genoa" class="navbar-logo">
     </a>
-    <a class="navbar-brand" href="../../index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">SMiG Lab</span>
     </a>
   </div>
@@ -114,15 +94,15 @@ div.csl-indent {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../index.html"> 
+    <a class="nav-link" href="../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../events.html"> 
+    <a class="nav-link" href="../events.html"> 
 <span class="menu-text">News &amp; events</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../people.html"> 
+    <a class="nav-link" href="../people.html"> 
 <span class="menu-text">People</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -131,25 +111,25 @@ div.csl-indent {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-research--co.">    
         <li>
-    <a class="dropdown-item" href="../../research.html">
+    <a class="dropdown-item" href="../research.html">
  <span class="dropdown-text">Research</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../teaching.html">
+    <a class="dropdown-item" href="../teaching.html">
  <span class="dropdown-text">Teaching activity</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../other.html">
+    <a class="dropdown-item" href="../other.html">
  <span class="dropdown-text">Other projects</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../publications.html">
+    <a class="dropdown-item" href="../publications.html">
  <span class="dropdown-text">Publications</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="../../about.html"> 
+    <a class="nav-link" href="../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
 </ul>
@@ -171,27 +151,36 @@ div.csl-indent {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Ranks, Centers, and dispersion measures for networked and metric data</h1>
+<h1 class="title">Short course on Non-parametric Information Geometry</h1>
   <div class="quarto-categories">
+    <div class="quarto-category">lectures</div>
     <div class="quarto-category">seminar</div>
+    <div class="quarto-category">guest</div>
   </div>
   </div>
 
 
+<div class="quarto-title-meta-author">
+  <div class="quarto-title-meta-heading">Author</div>
+  <div class="quarto-title-meta-heading">Affiliation</div>
+  
+    <div class="quarto-title-meta-contents">
+    <p class="author"><a href="https://www.giannidiorestino.it/">Giovanni Pistone</a> <a href="mailto:giovanni.pistone@carlolaberto.org" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> </p>
+  </div>
+  <div class="quarto-title-meta-contents">
+        <p class="affiliation">
+            de Castro Statistics, Collegio Carlo Alberto, Turin (Italy)
+          </p>
+      </div>
+  </div>
 
 <div class="quarto-title-meta">
 
-    <div>
-    <div class="quarto-title-meta-heading">Author</div>
-    <div class="quarto-title-meta-contents">
-             <p>Giulia Bertagnolli <a href="mailto:bertagnolli@dima.unige.it" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> </p>
-          </div>
-  </div>
-    
+      
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">March 1, 2024</p>
+      <p class="date">November 28, 2022</p>
     </div>
   </div>
   
@@ -201,7 +190,7 @@ div.csl-indent {
 <div>
   <div class="abstract">
     <div class="block-title">Abstract</div>
-    At the basis of non-parametric statistics there is the concept of ranks, which presumes the possibility of ordering data points. A natural order relation on a multivariate (Euclidean) space—or worse, on the vertices of a graph, or on the elements of a metric space—is, however, missing and we cannot define the median and quantiles for distributions on these spaces. Statistical data depth functions have been introduced since 1975 to solve this problem, so that we have now the Tukey median and Tukey’s contours <span class="citation" data-cites="Tukey1975">(<a href="#ref-Tukey1975" role="doc-biblioref">Tukey 1975</a>)</span>, along with a variety of other multivariate medians induced by different ways of ordering points, i.e.&nbsp;different data depths. The simplicial volume depth <span class="citation" data-cites="Oja1983">(<a href="#ref-Oja1983" role="doc-biblioref">Oja 1983</a>)</span> is particularly well suited to networked and metric data, allowing us not only to define the median of a network, but also to quantify its dispersion, through an unbiased and consistent estimator. Time permitting, we will see a sketch of the (unfinished) proof of a central limit theorem for this dispersion estimator. (Joint work with Claudio Agostinelli).
+    Lectures and seminar series on non-parametric information geometry.
   </div>
 </div>
 
@@ -209,18 +198,11 @@ div.csl-indent {
 </header>
 
 
+<p>For the program and materials of this short course, see <a href="https://www.giannidiorestino.it/lectures2022.html">the course webpage</a>.</p>
 
 
 
-
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
-<div id="ref-Oja1983" class="csl-entry" role="listitem">
-Oja, Hannu. 1983. <span>“Descriptive Statistics for Multivariate Distributions.”</span> <em>Statistics &amp; Probability Letters</em> 1 (6): 327–32. <a href="https://doi.org/10.1016/0167-7152(83)90054-8">https://doi.org/10.1016/0167-7152(83)90054-8</a>.
-</div>
-<div id="ref-Tukey1975" class="csl-entry" role="listitem">
-Tukey, John W. 1975. <span>“Mathematics and the Picturing of Data.”</span> In <em>Proceedings of the International Congress of Mathematicians, Vancouver, 1975</em>, 2:523–31.
-</div>
-</div></section></div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -607,7 +589,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p><img src="../../imgs/smig-logo-square.png" class="img-fluid" style="width:20.0%"> Statistical Modeling in Genoa</p>
+<p><img src="../imgs/smig-logo-square.png" class="img-fluid" style="width:20.0%"> Statistical Modeling in Genoa</p>
 </div>   
     <div class="nav-footer-center">
       &nbsp;
