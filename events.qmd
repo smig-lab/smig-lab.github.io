@@ -1,9 +1,9 @@
 ---
-title: "News & Events"
+title: "News & events"
 listing:
   contents: news
   sort: "date desc"
-  type: grid # default
+  type: default # grid
   image-align: right
   max-description-length: 175
   date-format: medium

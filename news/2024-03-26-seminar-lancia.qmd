@@ -1,0 +1,11 @@
+---
+title: "Strategies for Rare Population Detection and Sampling: A Methodological Approach in Liguria"
+author: 
+  name: Giacomo Lancia
+  email: lancia@dima.unige.it
+date: 2024-03-26
+categories:
+  - seminar
+---
+
+

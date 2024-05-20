@@ -1,6 +1,8 @@
 ---
 title: "Ranks, Centers, and dispersion measures for networked and metric data"
-author: "Giulia Bertagnolli"
+author:
+  name: Giulia Bertagnolli
+  email: bertagnolli@dima.unige.it
 date: 2024-03-01
 categories:
   - seminar 

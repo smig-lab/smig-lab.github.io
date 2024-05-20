@@ -1,0 +1,18 @@
+---
+title: "Short course on Non-parametric Information Geometry"
+author: 
+  name: Giovanni Pistone
+  affiliation: de Castro Statistics, Collegio Carlo Alberto, Turin (Italy)
+  url: https://www.giannidiorestino.it/
+  email: giovanni.pistone@carlolaberto.org
+date: 2022-11-28
+categories:
+  - lectures
+  - seminar
+  - guest
+abstract: "Lectures and seminar series on non-parametric information geometry."
+---
+
+For the program and materials of this short course, see [the course webpage](https://www.giannidiorestino.it/lectures2022.html).
+
+
