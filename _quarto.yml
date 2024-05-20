@@ -3,6 +3,7 @@ project:
 
 website:
   title: "SMiG Lab"
+  favicon: imgs/smig-lab-favicon.png  
   page-footer: 
     background: light
     left: |
