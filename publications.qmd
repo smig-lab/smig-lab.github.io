@@ -1,7 +1,57 @@
 ---
 title: "Publications"
-bibliography: publications.bib
-biblio-title: "Recent Publications"
-nocite: |
-  @*
 ---
+
+<!-- bibliography: publications.bib -->
+<!-- biblio-title: "Recent Publications" -->
+<!-- nocite: | -->
+<!--   @* -->
+
+```{r echo=FALSE, warning=FALSE,message=FALSE}
+rm(list = ls())
+if(!require(scholar)) {install.packages("scholar")}
+library(scholar)
+library(knitr)
+
+smig_scholar_ids <- c(
+  "riccomagno" = "JZIXyRIAAAAJ",
+  "sommariva" = "ocq-SpUAAAAJ",
+  "porro" = NULL,
+  "fassino" = NULL,
+  "bertagnolli" = "dSBvZYsAAAAJ",
+  "shoaib" = "RdXGEHYAAAAJ",
+  "carter" = "an5KmCEAAAAJ",
+  "lancia" = NULL,
+  "marigliano" = "itPE_DYAAAAJ"
+)
+
+dfs <- lapply(smig_scholar_ids, function(gs_id) {
+  if(!is.null(gs_id)) {
+    get_publications(gs_id) |> tibble::as_tibble()
+  }
+})
+df <- do.call("rbind", dfs)
+# df <- df[!duplicated(df[, "pubid"]), ]
+df <- df[order(df$year, decreasing = TRUE), ]
+df_pubs <- df[!grepl("arxiv", tolower(df$journal)), c("author", "year", "title", "journal", "number")]
+df_preprints <- df[grepl("arxiv", tolower(df$journal)), c("author", "year", "title", "journal", "number")]
+```
+
+
+## Recent publications
+
+```{r echo=FALSE}
+#| label: tbl-publications
+#| tbl-colwidths: [30,10,20,20,20,20]
+kable(head(df_pubs, 25))
+```
+
+## Pre-prints
+```{r echo=FALSE}
+#| label: tbl-preprints
+#| tbl-colwidths: [30,10,20,20,20,20]
+kable(head(df_preprints, 10))
+```
+
+For a full list of publications see the [IRIS database](https://iris.unige.it/simple-search?location=&query=&filter_field=author&filter_type=contains&filter_value=riccomagno&filter_value_display=riccomagno+%2890%29&rpp=10&sort_by=dc.date.issued_dt&order=DESC&submit_search=Aggiorna).
+
