@@ -11,14 +11,14 @@
     "href": "people.html#current",
     "title": "SMiG Lab",
     "section": "Current",
-    "text": "Current\nClaudia Fassino\n  Eva Riccomagno\n   Francesco Porro\n  Sara Sommariva\n  Giulia Bertagnolli\n  Muhammad Shoaib (PhD student)\nJack Storror Carter (post-doc)\nGiacomo Lancia (post-doc)\nOrlando Marigliano (Marie Skłodowska-Curie Fellow)"
+    "text": "Current\nClaudia Fassino\n  Eva Riccomagno\n   Francesco Porro\n  Sara Sommariva\n  Giulia Bertagnolli\n  Muhammad Shoaib (PhD student)\nJack Storror Carter (post-doc)\nOrlando Marigliano (Marie Skłodowska-Curie Fellow)"
   },
   {
     "objectID": "people.html#former",
     "href": "people.html#former",
     "title": "SMiG Lab",
     "section": "Former",
-    "text": "Former\nMaria Piera Rogantin  Ivano Repetto\nFederico Carli (currently in Axpo Italia)\nElena Pesce (currently in AXA XL)\nGiacomo Siri (currently in Dompé)\nEleonora Saggini (currently math teacher at Gastaldi-Abba)\nVirginia Pirino (currently senior analytics specialist in Costa Crociere)\nPiotr Zwiernik (currently associate professor in Toronto University)\nGherardo Varando"
+    "text": "Former\nMaria Piera Rogantin  Ivano Repetto\nFederico Carli (currently in Axpo Italia)\nElena Pesce (currently in AXA XL)\nGiacomo Siri (currently in Dompé)\nEleonora Saggini (currently math teacher at Gastaldi-Abba)\nVirginia Pirino (currently senior analytics specialist in Costa Crociere)\nPiotr Zwiernik (currently associate professor in Toronto University)\nGherardo Varando\nGiacomo Lancia (post-doc at Università La Sapienzqa, Roma)"
   },
   {
     "objectID": "news/2024-03-01-seminar-bertagnolli/index.html",
@@ -28,25 +28,39 @@
     "text": "References\n\nOja, Hannu. 1983. “Descriptive Statistics for Multivariate Distributions.” Statistics & Probability Letters 1 (6): 327–32. https://doi.org/10.1016/0167-7152(83)90054-8.\n\n\nTukey, John W. 1975. “Mathematics and the Picturing of Data.” In Proceedings of the International Congress of Mathematicians, Vancouver, 1975, 2:523–31."
   },
   {
-    "objectID": "research.html#network-science",
-    "href": "research.html#network-science",
-    "title": "Research",
-    "section": "Network Science",
-    "text": "Network Science"
-  },
-  {
-    "objectID": "research.html#information-geometry",
-    "href": "research.html#information-geometry",
-    "title": "Research",
-    "section": "Information Geometry",
-    "text": "Information Geometry"
-  },
-  {
-    "objectID": "events.html",
-    "href": "events.html",
-    "title": "News & events",
+    "objectID": "news/2024-05-14-sis-genova/index.html",
+    "href": "news/2024-05-14-sis-genova/index.html",
+    "title": "Statistics for innovation: Intermediate conference of the Italian Statistical Society",
     "section": "",
-    "text": "Statistics for innovation: Intermidiate conference of the Italian Statistical Society\n\n\n\n\n\n\nconference\n\n\n\n\n\n\n\n\n\nMay 15, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nGroup-wise comparison of connectivity graphs\n\n\n\n\n\n\nseminar\n\n\n\n\n\n\n\n\n\nApr 24, 2024\n\n\nSara Sommariva\n\n\n\n\n\n\n\n\n\n\n\n\nStrategies for Rare Population Detection and Sampling: A Methodological Approach in Liguria\n\n\n\n\n\n\nseminar\n\n\n\n\n\n\n\n\n\nMar 26, 2024\n\n\nGiacomo Lancia\n\n\n\n\n\n\n\n\n\n\n\n\nRanks, Centers, and dispersion measures for networked and metric data\n\n\n\n\n\n\nseminar\n\n\n\nAt the basis of non-parametric statistics there is the concept of ranks, which presumes the possibility of ordering data points. A natural order relation on a multivariate…\n\n\n\n\n\nMar 1, 2024\n\n\nGiulia Bertagnolli\n\n\n\n\n\n\n\n\n\n\n\n\nShort course on Non-parametric Information Geometry\n\n\n\n\n\n\nlectures\n\n\nseminar\n\n\nguest\n\n\n\nLectures and seminar series on non-parametric information geometry.\n\n\n\n\n\nNov 28, 2022\n\n\nGiovanni Pistone\n\n\n\n\n\n\nNo matching items"
+    "text": "We are glad to host the 2025 Intermediate conference of the Italian Statistical Society (SIS)."
+  },
+  {
+    "objectID": "news/2024-05-14-sis-genova/index.html#main-conference",
+    "href": "news/2024-05-14-sis-genova/index.html#main-conference",
+    "title": "Statistics for innovation: Intermediate conference of the Italian Statistical Society",
+    "section": "Main conference",
+    "text": "Main conference\nWhen: June, 16–18 2025\nWhere: Genoa\nWhat: Details will be available soon.\n\nSatellite\nWhen: June, 19 2025\nWhere: Pavia\nWhat: Details will be available soon."
+  },
+  {
+    "objectID": "teaching.html",
+    "href": "teaching.html",
+    "title": "Teaching activity",
+    "section": "",
+    "text": "Primarily, our teaching activity is inside the bachelor degree course: Mathematical Statistics and Data Management."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "SMiG Lab",
+    "section": "",
+    "text": "The research group in Mathematical Statistics studies problems of algebraic statistics and planning of experiments, in particular graphical probabilistic models and optimal planning of experiments for large and big datasets; a recent line of research is on compositional data, investigating applications in the financial and biomedical fields, e.g. proteomic and genomic data, and developing algorithms and open-source software packages."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "Via Dodecaneso 35 16146 Genova (GE) DIMA - Dipartimento di Matematica Università degli Studi di Genova"
   },
   {
     "objectID": "publications.html",
@@ -70,39 +84,32 @@
     "text": "Pre-prints\n\n\n\n\n\n\n\n\n\n\n\n\nauthor\nyear\ntitle\njournal\nnumber\n\n\n\n\nJS Carter, M Leonelli, E Riccomagno, A Ugolini\n2024\nStaged trees for discrete longitudinal data\narXiv preprint arXiv:\n:2401.04297\n\n\nG Lancia, E Riccomagno\n2024\nStrategies for Rare Population Detection and Sampling: A Methodological Approach in Liguria\narXiv preprint arXiv:\n:2405.01342\n\n\nJ Storror Carter, M Leonelli, E Riccomagno, A Ugolini\n2024\nStaged trees for discrete longitudinal data\narXiv e-prints, arXiv:\n2401.04297\n\n\nJS Carter, M Leonelli, E Riccomagno, A Ugolini\n2024\nStaged trees for discrete longitudinal data\narXiv preprint arXiv:\n:2401.04297\n\n\nMA Hahn, K Kohn, O Marigliano, T Pajdla\n2024\nOrder-One Rolling Shutter Cameras\narXiv preprint arXiv:\n:2403.11295\n\n\nC Améndola, L Gustafsson, K Kohn, O Marigliano, A Seigal\n2023\nDifferential equations for Gaussian statistical models with rational maximum likelihood estimator\narXiv preprint arXiv:\n:2304.12054\n\n\nS Berra, A La Torraca, F Benvenuto, S Sommariva\n2022\nA fast and convergent combined Newton and gradient descent method for computing steady states of chemical reaction networks\narXiv preprint arXiv:\n:2212.14252\n\n\nJS Carter\n2022\nA note on incorrect inferences in non-binary qualitative probabilistic networks\narXiv preprint arXiv:\n:2208.09344\n\n\nA Bik, O Marigliano\n2022\nClassifying one-dimensional discrete models with maximum likelihood degree one\narXiv preprint arXiv:\n:2205.09547\n\n\nE Pesce, F Rapallo, E Riccomagno, HP Wynn\n2021\nCircuit bases for randomisation\narXiv preprint arXiv:\n:2105.03102\n\n\n\n\n\nFor a full list of publications see the IRIS database."
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "events.html",
+    "href": "events.html",
+    "title": "News & events",
     "section": "",
-    "text": "Via Dodecaneso 35 16146 Genova (GE) DIMA - Dipartimento di Matematica Università degli Studi di Genova"
+    "text": "Trees4cat Workshop\n\n\n\n\n\n\nworkshop\n\n\n\n\n\n\n\n\n\nNov 21, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nStatistics for innovation: Intermediate conference of the Italian Statistical Society\n\n\n\n\n\n\nconference\n\n\n\n\n\n\n\n\n\nMay 15, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nGroup-wise comparison of connectivity graphs\n\n\n\n\n\n\nseminar\n\n\n\n\n\n\n\n\n\nApr 24, 2024\n\n\nSara Sommariva\n\n\n\n\n\n\n\n\n\n\n\n\nStrategies for Rare Population Detection and Sampling: A Methodological Approach in Liguria\n\n\n\n\n\n\nseminar\n\n\n\n\n\n\n\n\n\nMar 26, 2024\n\n\nGiacomo Lancia\n\n\n\n\n\n\n\n\n\n\n\n\nRanks, Centers, and dispersion measures for networked and metric data\n\n\n\n\n\n\nseminar\n\n\n\nAt the basis of non-parametric statistics there is the concept of ranks, which presumes the possibility of ordering data points. A natural order relation on a multivariate…\n\n\n\n\n\nMar 1, 2024\n\n\nGiulia Bertagnolli\n\n\n\n\n\n\n\n\n\n\n\n\nShort course on Non-parametric Information Geometry\n\n\n\n\n\n\nlectures\n\n\nseminar\n\n\nguest\n\n\n\nLectures and seminar series on non-parametric information geometry.\n\n\n\n\n\nNov 28, 2022\n\n\nGiovanni Pistone\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "SMiG Lab",
-    "section": "",
-    "text": "The research group in Mathematical Statistics studies problems of algebraic statistics and planning of experiments, in particular graphical probabilistic models and optimal planning of experiments for large and big datasets; a recent line of research is on compositional data, investigating applications in the financial and biomedical fields, e.g. proteomic and genomic data, and developing algorithms and open-source software packages."
+    "objectID": "research.html#network-science",
+    "href": "research.html#network-science",
+    "title": "Research",
+    "section": "Network Science",
+    "text": "Network Science"
   },
   {
-    "objectID": "teaching.html",
-    "href": "teaching.html",
-    "title": "Teaching activity",
-    "section": "",
-    "text": "Primarily, our teaching activity is inside the bachelor degree course: Mathematical Statistics and Data Management."
+    "objectID": "research.html#information-geometry",
+    "href": "research.html#information-geometry",
+    "title": "Research",
+    "section": "Information Geometry",
+    "text": "Information Geometry"
   },
   {
-    "objectID": "news/2024-05-14-sis-genova/index.html",
-    "href": "news/2024-05-14-sis-genova/index.html",
-    "title": "Statistics for innovation: Intermidiate conference of the Italian Statistical Society",
+    "objectID": "news/trees4cat.html",
+    "href": "news/trees4cat.html",
+    "title": "Trees4cat Workshop",
     "section": "",
-    "text": "We are glad to host the 2025 Intermidiate conference of SIS - the Società Italiana di Statistica."
-  },
-  {
-    "objectID": "news/2024-05-14-sis-genova/index.html#main-conference",
-    "href": "news/2024-05-14-sis-genova/index.html#main-conference",
-    "title": "Statistics for innovation: Intermidiate conference of the Italian Statistical Society",
-    "section": "Main conference",
-    "text": "Main conference\nWhen: June, 16–18 2025\nWhere: Genoa\nWhat:\n\nSatellite\nWhen: June, 19 2025\nWhere: Pavia\nWhat:"
+    "text": "The trees4cat Workshop (Trees for Categorical Data) aims at bringing together researchers working on the analysis of categorical data with complex, asymmetric dependence and sample space structures. This meeting builds up on two past meetings on the topic: The 1st UK Conference on Chain Event Graphs organized in 2019 at the University of Glasgow and the Conference on Reasoning with Asymmetric and Context-Specific Graphs organized in 2021 by Baylor University and held online.\nWhen: 21-23 October 2024\nWhere: University of Genova\nConfirmed Speakers:\n\nEliana Duarte\nManuele Leonelli\nJim Smith\nLiam Solus\n\nSee the workshop website for more details."
   },
   {
     "objectID": "news/ig-short-course.html",
