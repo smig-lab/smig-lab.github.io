@@ -1,6 +1,6 @@
 ---
 title: "Statistics for innovation: Intermediate conference of the Italian Statistical Society"
-date: 2024-05-15
+date: 2025-06-16
 categories:
   - conference 
 ---

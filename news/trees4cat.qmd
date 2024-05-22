@@ -1,6 +1,6 @@
 ---
 title: "Trees4cat Workshop"
-date: 2024-11-21
+date: 2024-10-21
 categories:
   - workshop
 ---
