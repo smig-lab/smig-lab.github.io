@@ -20,7 +20,6 @@ People working in this area
 <!-- [bertagnolli at dima.unige.it](mailto:bertagnolli%20at%20dima.unige.it) -->
 Muhammad Shoaib (PhD student)\
 [Jack Storror Carter](https://jackstorrorcarter.github.io/) (post-doc)\
-Giacomo Lancia (post-doc)\
 Orlando Marigliano (Marie Skłodowska-Curie Fellow)\
 
 ## Former
@@ -34,6 +33,7 @@ Eleonora Saggini (currently math teacher at Gastaldi-Abba)\
 Virginia Pirino (currently senior analytics specialist in Costa Crociere)\
 [Piotr Zwiernik](https://pzwiernik.github.io/) (currently associate professor in Toronto University)\
 Gherardo Varando\
+[Giacomo Lancia](https://www.sbai.uniroma1.it/users/lancia-giacomo) (post-doc at Università La Sapienzqa, Roma)\
 
 
   
