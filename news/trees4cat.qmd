@@ -5,7 +5,7 @@ categories:
   - workshop
 ---
 
-The [trees4cat Workshop (Trees for Categorical Data)](https://stagedtrees.github.io/events/workshop2024.html) aims at bringing together researchers working on the analysis of categorical data with complex, asymmetric dependence and sample space structures. This meeting builds up on two past meetings on the topic: The 1st UK Conference on Chain Event Graphs organized in 2019 at the University of Glasgow and the Conference on Reasoning with Asymmetric and Context-Specific Graphs organized in 2021 by Baylor University and held online.
+The [trees4cat Workshop (Trees for Categorical Data)](https://stagedtrees.github.io/events/trees4cat.html) aims at bringing together researchers working on the analysis of categorical data with complex, asymmetric dependence and sample space structures. This meeting builds up on two past meetings on the topic: The 1st UK Conference on Chain Event Graphs organized in 2019 at the University of Glasgow and the Conference on Reasoning with Asymmetric and Context-Specific Graphs organized in 2021 by Baylor University and held online.
 
 **When:** 21-23 October 2024\
 **Where:** University of Genova
@@ -18,4 +18,3 @@ Confirmed Speakers:
 * [Liam Solus](https://people.kth.se/~solus)
 
 See the [workshop website](https://stagedtrees.github.io/events/workshop2024.html) for more details.
-

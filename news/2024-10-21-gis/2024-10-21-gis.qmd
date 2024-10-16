@@ -1,0 +1,27 @@
+---
+title: "Giornata della Statistica 2024"
+date: 2024-10-21
+image: giornata-italiana-statistica.png
+categories:
+  - SMID
+  - event
+abstract: "In occasione della _Giornata Italiana della Statistica_, presentazione di esperienze di studio e lavoro di laureati SMID."
+---
+
+Il 21 ottobre 2024, il corso di laurea in **Statistica Matemtica e trattamento Informatico dei Dati (SMID)** dell'Università di Genova, celebra la _Giornata Italiana della Statistica_ con la presentazione di esperienze di studio e lavoro di laureati SMID.
+
+### Quando
+
+21 ottobre 2024
+
+### Programma
+
+* SMID: un po' di storia, _Maria Piera Rogantin_
+* Sbagliando si impara, parola di consulente, _Iacopo Arata_
+* Tra Dati e Continenti: Un Viaggio da SMID al Mondo, _Manuele Leonelli_
+
+Tutti gli studenti, docenti e simpatizzanti SMID sono invitati!
+
+---
+
+[Scarica qui la locandina](./GIS2024DIMA_2.0.pdf).
