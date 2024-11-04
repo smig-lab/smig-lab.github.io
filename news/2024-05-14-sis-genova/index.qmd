@@ -2,20 +2,19 @@
 title: "Statistics for innovation: Intermediate conference of the Italian Statistical Society"
 date: 2025-06-16
 categories:
-  - conference 
+  - conference
 ---
 
-We are glad to host the 2025 Intermediate conference of the [Italian Statistical Society (SIS)](https://www.sis-statistica.it/).
+We are glad to host the 2025 Intermediate conference of the [Italian Statistical Society (SIS)](https://sis2025.sis-statistica.it/).
 
 ## Main conference
 
 **When:** June, 16--18 2025\
 **Where:** Genoa\
-**What:** Details will be available soon.
+**What:** The conference aims at discussing the state-of-the-art on _innovations in statistics_ and _statistics for innovations_. For more details see the [SIS 2025 website](https://sis2025.sis-statistica.it/).
 
 ### Satellite
 
 **When:** June, 19 2025\
 **Where:** Pavia\
 **What:** Details will be available soon.
-
