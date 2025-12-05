@@ -15,11 +15,7 @@ People working in this area
 [Sara Sommariva](https://www.dima.unige.it/~sommariva/)\
 <!-- Ricercatore a tempo determinato\ -->
 <!-- [sara.sommariva at unige.it](mailto:sara.sommariva%20at%20unige.it) -->
-[Giulia Bertagnolli](https://gbertagnolli.github.io)\
-<!-- Ricercatore a tempo determinato\ -->
-<!-- [bertagnolli at dima.unige.it](mailto:bertagnolli%20at%20dima.unige.it) -->
 Muhammad Shoaib (PhD student)\
-[Jack Storror Carter](https://jackstorrorcarter.github.io/) (post-doc)\
 Orlando Marigliano (Marie Skłodowska-Curie Fellow)\
 
 ## Former
@@ -34,6 +30,8 @@ Virginia Pirino (currently senior analytics specialist in Costa Crociere)\
 [Piotr Zwiernik](https://pzwiernik.github.io/) (currently associate professor in Toronto University)\
 Gherardo Varando\
 [Giacomo Lancia](https://www.sbai.uniroma1.it/users/lancia-giacomo) (post-doc at Università La Sapienzqa, Roma)\
+[Giulia Bertagnolli](https://gbertagnolli.github.io) (Free University of Bozen-Bolzano)\
+[Jack Storror Carter](https://jackstorrorcarter.github.io/) (Universitat Pompeu Fabra) (post-doc)\
 
 
   
