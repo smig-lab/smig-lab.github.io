@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.538">
+<meta name="generator" content="quarto-1.8.25">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>SMiG Lab - Publications</title>
+<title>Publications – SMiG Lab</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -31,17 +31,21 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
 <link href="./imgs/smig-lab-favicon.png" rel="icon" type="image/png">
-<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-707d8167ce6003fca903bfe2be84ab7f.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-07264c2970cbdd55a66a9229bf23f7c9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-470b596a1321a953154d5e08ec89b280.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-07264c2970cbdd55a66a9229bf23f7c9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -74,7 +78,169 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed">
+<body class="nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = false;
+    const darkModeDefault = authorPrefersDark;
+      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -82,14 +248,15 @@ ul.task-list li input[type="checkbox"] {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./imgs/smig-logo-small.png" alt="Statistical Modeling in Genoa" class="navbar-logo">
+    <img src="./imgs/smig-logo-small.png" alt="Statistical Modeling in Genoa" class="navbar-logo light-content">
+    <img src="./imgs/smig-logo-small.png" alt="Statistical Modeling in Genoa" class="navbar-logo dark-content">
     </a>
     <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">SMiG Lab</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
@@ -107,7 +274,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">People</span></a>
   </li>  
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-research--co." role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-research--co." role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Research &amp; co.</span>
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-research--co.">    
@@ -135,7 +302,7 @@ ul.task-list li input[type="checkbox"] {
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
-          <div class="quarto-navbar-tools">
+            <div class="quarto-navbar-tools">
   <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
 </div>
       </div> <!-- /container-fluid -->
@@ -157,6 +324,7 @@ ul.task-list li input[type="checkbox"] {
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
+
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -183,15 +351,21 @@ ul.task-list li input[type="checkbox"] {
 <!--   @* -->
 <section id="recent-publications" class="level2">
 <h2 class="anchored" data-anchor-id="recent-publications">Recent publications</h2>
-<div id="tbl-publications" class="cell anchored" data-tbl-colwidths="[30,10,20,20,20,20]">
+<div class="cell" data-tbl-colwidths="[30,10,20,20,20,20]">
+<div id="tbl-publications" class="cell quarto-float quarto-figure quarto-figure-center anchored" data-tbl-colwidths="[30,10,20,20,20,20]">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl quarto-uncaptioned" id="tbl-publications-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;1
+</figcaption>
+<div aria-describedby="tbl-publications-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <div class="cell-output-display">
-<table class="table table-sm table-striped small">
+<table class="caption-top table table-sm table-striped small">
 <colgroup>
+<col style="width: 30%">
+<col style="width: 10%">
 <col style="width: 20%">
-<col style="width: 1%">
-<col style="width: 39%">
-<col style="width: 18%">
-<col style="width: 19%">
+<col style="width: 20%">
+<col style="width: 20%">
 </colgroup>
 <thead>
 <tr class="header">
@@ -204,6 +378,76 @@ ul.task-list li input[type="checkbox"] {
 </thead>
 <tbody>
 <tr class="odd">
+<td style="text-align: left;">JS Carter, M Leonelli, E Riccomagno, A Ugolini</td>
+<td style="text-align: right;">2025</td>
+<td style="text-align: left;">Staged trees for discrete longitudinal data</td>
+<td style="text-align: left;">Metrika</td>
+<td style="text-align: left;">1-34</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">L Carini, S Sommariva, F Famà, L Giorgetti, P Mattioli, B Orso, R Mancini, …</td>
+<td style="text-align: right;">2025</td>
+<td style="text-align: left;">Network based statistics shows that rem sleep behavior disorder and visual hallucinations increase functional connectivity in early dementia with Lewy bodies</td>
+<td style="text-align: left;">medRxiv</td>
+<td style="text-align: left;">2025.02. 26.25322839</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">S Sommariva, NP Subramaniyam, L Parkkonen</td>
+<td style="text-align: right;">2025</td>
+<td style="text-align: left;">Cortical parcellation optimized for magnetoencephalography with a clustering technique</td>
+<td style="text-align: left;">Scientific Reports</td>
+<td style="text-align: left;">15 (1), 6404</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">S Berra, S Sommariva, M Piana, G Caviglia</td>
+<td style="text-align: right;">2025</td>
+<td style="text-align: left;">From Michaelis-Menten parameters to microscopic rate constants: an inversion approach for enzyme kinetics</td>
+<td style="text-align: left;">bioRxiv</td>
+<td style="text-align: left;">2025.10. 23.684102</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">JS Carter, M Leonelli, E Riccomagno, A Ugolini</td>
+<td style="text-align: right;">2025</td>
+<td style="text-align: left;">Staged trees for discrete longitudinal data</td>
+<td style="text-align: left;">Metrika</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">MA Hahn, K Kohn, O Marigliano, T Pajdla</td>
+<td style="text-align: right;">2025</td>
+<td style="text-align: left;">Order-one rolling shutter cameras</td>
+<td style="text-align: left;">Proceedings of the Computer Vision and Pattern Recognition Conference</td>
+<td style="text-align: left;">27007&nbsp;…</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">A Bik, O Marigliano</td>
+<td style="text-align: right;">2025</td>
+<td style="text-align: left;">Classifying one-dimensional discrete models with maximum likelihood degree one</td>
+<td style="text-align: left;">Advances in Applied Mathematics</td>
+<td style="text-align: left;">170, 102928</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">S Sahbani, B Béjaoui, E Ottaviani, S Benabdallah, E Riccomagno, …</td>
+<td style="text-align: right;">2024</td>
+<td style="text-align: left;">Performance of different modeling techniques in testing the impact of environmental variables on eel landing in Ichkeul Lake, a RAMSAR Wetland and UNESCO biosphere reserve</td>
+<td style="text-align: left;">Regional Studies in Marine Science</td>
+<td style="text-align: left;">77, 103587</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">F Carli, E Pesce, F Porro, E Riccomagno</td>
+<td style="text-align: right;">2024</td>
+<td style="text-align: left;">Combination of autoregressive graphical models and time series bootstrap methods for risk management in marine insurance</td>
+<td style="text-align: left;">Socio-Economic Planning Sciences</td>
+<td style="text-align: left;">92, 101833</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">S Sahbani, E Ottaviani, H Missaoui, B Béjaoui, E Riccomagno, …</td>
+<td style="text-align: right;">2024</td>
+<td style="text-align: left;">Machine learning techniques for forecasting the effect of climate change and anthropogenic pressures on coastal wetlands (Ichkeul Lake, Ramsar site)</td>
+<td style="text-align: left;">Innovation and Technological Advances for Sustainability</td>
+<td style="text-align: left;">88-96</td>
+</tr>
+<tr class="odd">
 <td style="text-align: left;">R Rapetti, EC Franchino, S Visca, E Riccomagno, F Porro, D Vittonetto, …</td>
 <td style="text-align: right;">2024</td>
 <td style="text-align: left;">Observed and Perceived Pain: Findings of a Cross-Sectional Study in Hospitalized Subjects</td>
@@ -211,39 +455,53 @@ ul.task-list li input[type="checkbox"] {
 <td style="text-align: left;">25 (2), 131-136</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">F Carli, E Pesce, F Porro, E Riccomagno</td>
+<td style="text-align: left;">E Larson, A Gramfort, DA Engemann, J Leppakangas, C Brodbeck, M Jas, …</td>
 <td style="text-align: right;">2024</td>
-<td style="text-align: left;">Combination of autoregressive graphical models and time series bootstrap methods for risk management in marine insurance</td>
-<td style="text-align: left;">Socio-Economic Planning Sciences</td>
-<td style="text-align: left;">92, 101833</td>
+<td style="text-align: left;">Mne-python</td>
+<td style="text-align: left;">Zenodo</td>
+<td style="text-align: left;"></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">S Berra, A La Torraca, F Benvenuto, S Sommariva</td>
 <td style="text-align: right;">2024</td>
-<td style="text-align: left;">Combined Newton-Gradient Method for Constrained Root-Finding in Chemical Reaction Networks</td>
+<td style="text-align: left;">Combined newton-gradient method for constrained root-finding in chemical reaction networks</td>
 <td style="text-align: left;">Journal of Optimization Theory and Applications</td>
 <td style="text-align: left;">200 (1), 404-427</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">G Biddau, G Caviglia, M Piana, S Sommariva</td>
-<td style="text-align: right;">2024</td>
-<td style="text-align: left;">PCA-based synthetic sensitivity coefficients for chemical reaction network in cancer</td>
-<td style="text-align: left;">Scientific Reports</td>
-<td style="text-align: left;">14 (1), 17706</td>
-</tr>
-<tr class="odd">
 <td style="text-align: left;">G Luria, A Viani, A Pascarella, H Bornfleth, S Sommariva, A Sorrentino</td>
 <td style="text-align: right;">2024</td>
 <td style="text-align: left;">The SESAMEEG package: a probabilistic tool for source localization and uncertainty quantification in M/EEG</td>
 <td style="text-align: left;">Frontiers in Human Neuroscience</td>
 <td style="text-align: left;">18, 1359753</td>
 </tr>
+<tr class="odd">
+<td style="text-align: left;">G Biddau, G Caviglia, M Piana, S Sommariva</td>
+<td style="text-align: right;">2024</td>
+<td style="text-align: left;">PCA-based synthetic sensitivity coefficients for chemical reaction network in cancer</td>
+<td style="text-align: left;">Scientific Reports</td>
+<td style="text-align: left;">14 (1), 17706</td>
+</tr>
 <tr class="even">
+<td style="text-align: left;">F Porro, F Rapallo, S Sommariva</td>
+<td style="text-align: right;">2024</td>
+<td style="text-align: left;">Dimensionality Reduction of Compositional Data with Structural Zeros: A Case Study</td>
+<td style="text-align: left;">Scientific Meeting of the Italian Statistical Society</td>
+<td style="text-align: left;">107-112</td>
+</tr>
+<tr class="odd">
 <td style="text-align: left;">L Fellin, G Bertagnolli, V Mazzoni, G Anfora, C Agostinelli, …</td>
 <td style="text-align: right;">2024</td>
 <td style="text-align: left;">Detection and characterization of incidental vibrations from Drosophila suzukii in infested fruits</td>
 <td style="text-align: left;">Journal of Pest Science</td>
-<td style="text-align: left;">1-13</td>
+<td style="text-align: left;">97 (3), 1461-1473</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">G Pistone, M Shoaib</td>
+<td style="text-align: right;">2024</td>
+<td style="text-align: left;">A unified approach to aitchison’s, dually affine, and transport geometries of the probability simplex</td>
+<td style="text-align: left;">Axioms</td>
+<td style="text-align: left;">823</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">JS Carter, D Rossell, JQ Smith</td>
@@ -263,8 +521,8 @@ ul.task-list li input[type="checkbox"] {
 <td style="text-align: left;">JS Carter, M Leonelli, E Riccomagno, G Varando</td>
 <td style="text-align: right;">2024</td>
 <td style="text-align: left;">Learning Staged Trees from Incomplete Data</td>
-<td style="text-align: left;">International Conference on Probabilistic Graphical Models (PMLR)</td>
-<td style="text-align: left;">246, 231-252</td>
+<td style="text-align: left;">Proceedings of The</td>
+<td style="text-align: left;">12th International Conference on Probabilistic Graphical&nbsp;…</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">C Améndola, L Gustafsson, K Kohn, O Marigliano, A Seigal</td>
@@ -294,106 +552,31 @@ ul.task-list li input[type="checkbox"] {
 <td style="text-align: left;">Italian Journal of Nursing (IJN)/Giornale Italiano di Infermieristica</td>
 <td style="text-align: left;"></td>
 </tr>
-<tr class="even">
-<td style="text-align: left;">D Brkić, S Sommariva, AL Schuler, A Pascarella, P Belardinelli, …</td>
-<td style="text-align: right;">2023</td>
-<td style="text-align: left;">The impact of ROI extraction method for MEG connectivity estimation: Practical recommendations for the study of resting state data.</td>
-<td style="text-align: left;">NeuroImage</td>
-<td style="text-align: left;">284, 120424</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">E Vallarino, AS Hincapié, K Jerbi, RM Leahy, A Pascarella, A Sorrentino, …</td>
-<td style="text-align: right;">2023</td>
-<td style="text-align: left;">Tuning Minimum-Norm regularization parameters for optimal MEG connectivity estimation</td>
-<td style="text-align: left;">NeuroImage</td>
-<td style="text-align: left;">281, 120356</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">F Hilbers, D Venet, E Agostinetto, M Benelli, A Guerrero, …</td>
-<td style="text-align: right;">2023</td>
-<td style="text-align: left;">Characterization of the immune microenvironment in matched primary and metastatic breast cancer lesions from the AURORA study: BIG 14-01.</td>
-<td style="text-align: left;">Journal of Clinical Oncology</td>
-<td style="text-align: left;">41 (16_suppl), 1009-1009</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">S Sommariva, G Romoli, E Vallarino, L Di Fino, A Sorrentino, GS Amantini, …</td>
-<td style="text-align: right;">2023</td>
-<td style="text-align: left;">EEG in extreme conditions: An advanced analysis pipeline for the human electroencephalographic signals recorded in space during the ALTEA experiment</td>
-<td style="text-align: left;">Life Sciences in Space Research</td>
-<td style="text-align: left;">36, 39-46</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">G Biddau, G Caviglia, M Piana, S Sommariva</td>
-<td style="text-align: right;">2023</td>
-<td style="text-align: left;">SSI: A Statistical Sensitivity Index for Chemical Reaction Networks in cancer</td>
-<td style="text-align: left;">bioRxiv</td>
-<td style="text-align: left;">2023.01. 12.523784</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">S Sommariva, S Berra, G Biddau, G Caviglia, F Benvenuto, M Piana</td>
-<td style="text-align: right;">2023</td>
-<td style="text-align: left;">In-silico modelling of the mitogen-activated protein kinase (MAPK) pathway in colorectal cancer: mutations and targeted therapy</td>
-<td style="text-align: left;">Frontiers in Systems Biology</td>
-<td style="text-align: left;">3, 1207898</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">S Sommariva, S Berra, G Biddau, G Caviglia, F Benvenuto, M Piana</td>
-<td style="text-align: right;">2023</td>
-<td style="text-align: left;">In-silico modelling of the mitogen-activated kinase (MAPK) pathway in colorectal cancer: mutations and targeted therapy</td>
-<td style="text-align: left;">bioRxiv</td>
-<td style="text-align: left;">2023.04. 18.537359</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">S Sommariva, NP Subramaniyam, M Piana</td>
-<td style="text-align: right;">2023</td>
-<td style="text-align: left;">Data science in neuro-and onco-biology</td>
-<td style="text-align: left;">Frontiers in Applied Mathematics and Statistics</td>
-<td style="text-align: left;">9, 1175331</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">M Piana, S Sommariva, NP Subramaniyam</td>
-<td style="text-align: right;">2023</td>
-<td style="text-align: left;">Research Topic: Data science in neuro-and onco-biology</td>
-<td style="text-align: left;">Frontiers in Applied Mathematics and Statistics</td>
-<td style="text-align: left;"></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">A Ghavasieh, G Bertagnolli, M De Domenico</td>
-<td style="text-align: right;">2023</td>
-<td style="text-align: left;">Dismantling the information flow in complex interconnected systems</td>
-<td style="text-align: left;">Physical Review Research</td>
-<td style="text-align: left;">5 (1), 013084</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">G Colombani, G Bertagnolli, O Artime</td>
-<td style="text-align: right;">2023</td>
-<td style="text-align: left;">Efficient network exploration by means of resetting self-avoiding random walkers</td>
-<td style="text-align: left;">Journal of Physics: Complexity</td>
-<td style="text-align: left;">4 (4), 04LT01</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">L Fellin, G Bertagnolli, R Nieri, G Anfora, C Agostinelli, S Schmidt, …</td>
-<td style="text-align: right;">2023</td>
-<td style="text-align: left;">Influenza degli stimoli vibrazionali sulla ricerca dell’ospite da parte di G1 Ganaspis cf.&nbsp;brasiliensis</td>
-<td style="text-align: left;">CNIE</td>
-<td style="text-align: left;">2023: XXVII Congresso Nazionale Italiano di Entomologia, Palermo, 12-16&nbsp;…</td>
-</tr>
 </tbody>
 </table>
+</div>
+</div>
+</figure>
 </div>
 </div>
 </section>
 <section id="pre-prints" class="level2">
 <h2 class="anchored" data-anchor-id="pre-prints">Pre-prints</h2>
-<div id="tbl-preprints" class="cell anchored" data-tbl-colwidths="[30,10,20,20,20,20]">
+<div class="cell" data-tbl-colwidths="[30,10,20,20,20,20]">
+<div id="tbl-preprints" class="cell quarto-float quarto-figure quarto-figure-center anchored" data-tbl-colwidths="[30,10,20,20,20,20]">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl quarto-uncaptioned" id="tbl-preprints-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;2
+</figcaption>
+<div aria-describedby="tbl-preprints-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <div class="cell-output-display">
-<table class="table table-sm table-striped small">
+<table class="caption-top table table-sm table-striped small">
 <colgroup>
-<col style="width: 24%">
-<col style="width: 2%">
-<col style="width: 56%">
+<col style="width: 30%">
 <col style="width: 10%">
-<col style="width: 5%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
 </colgroup>
 <thead>
 <tr class="header">
@@ -406,11 +589,67 @@ ul.task-list li input[type="checkbox"] {
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;">JS Carter, M Leonelli, E Riccomagno, A Ugolini</td>
-<td style="text-align: right;">2024</td>
-<td style="text-align: left;">Staged trees for discrete longitudinal data</td>
+<td style="text-align: left;">O Marigliano, E Riccomagno</td>
+<td style="text-align: right;">2025</td>
+<td style="text-align: left;">Markov Combinations of Discrete Statistical Models</td>
 <td style="text-align: left;">arXiv preprint arXiv:</td>
-<td style="text-align: left;">:2401.04297</td>
+<td style="text-align: left;">:2509.18983</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">P Ferrari, S Sommariva, M Piana, F Benvenuto, M Varbaro</td>
+<td style="text-align: right;">2025</td>
+<td style="text-align: left;">When algebra twinks system biology: a conjecture on the structure of Gr" obner bases in complex chemical reaction networks</td>
+<td style="text-align: left;">arXiv preprint arXiv:</td>
+<td style="text-align: left;">:2501.12233</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">F Porro, F Rapallo, S Sommariva</td>
+<td style="text-align: right;">2025</td>
+<td style="text-align: left;">Testing for a common subspace in compositional datasets with structural zeros</td>
+<td style="text-align: left;">arXiv preprint arXiv:</td>
+<td style="text-align: left;">:2510.22853</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">C Razzetta, S Noei, F Barbarossa, E Spairani, M Roascio, E Barbi, …</td>
+<td style="text-align: right;">2025</td>
+<td style="text-align: left;">AI-based modular warning machine for risk identification in proximity healthcare</td>
+<td style="text-align: left;">arXiv preprint arXiv:</td>
+<td style="text-align: left;">:2506.15823</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">C Agostinelli, A Basu, G Bertagnolli, AK Kuchibhotla</td>
+<td style="text-align: right;">2025</td>
+<td style="text-align: left;">A Weighted Likelihood Approach Based on Statistical Data Depths</td>
+<td style="text-align: left;">arXiv preprint arXiv:</td>
+<td style="text-align: left;">:2507.16998</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">JS Carter, C Molinari</td>
+<td style="text-align: right;">2025</td>
+<td style="text-align: left;">Existence and optimisation of the partial correlation graphical lasso</td>
+<td style="text-align: left;">arXiv preprint arXiv:</td>
+<td style="text-align: left;">:2510.25712</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">JS Carter</td>
+<td style="text-align: right;">2025</td>
+<td style="text-align: left;">Existence of the solution to the graphical lasso</td>
+<td style="text-align: left;">arXiv preprint arXiv:</td>
+<td style="text-align: left;">:2505.20005</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">O Marigliano, E Riccomagno</td>
+<td style="text-align: right;">2025</td>
+<td style="text-align: left;">Markov Combinations of Discrete Statistical Models</td>
+<td style="text-align: left;">arXiv preprint arXiv:</td>
+<td style="text-align: left;">:2509.18983</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">G Lancia, E Riccomagno</td>
+<td style="text-align: right;">2024</td>
+<td style="text-align: left;">Strategies for rare population detection and sampling: A methodological approach in liguria</td>
+<td style="text-align: left;">arXiv preprint arXiv:</td>
+<td style="text-align: left;">:2405.01342</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">JS Carter, M Leonelli, E Riccomagno, G Varando</td>
@@ -419,64 +658,11 @@ ul.task-list li input[type="checkbox"] {
 <td style="text-align: left;">arXiv preprint arXiv:</td>
 <td style="text-align: left;">:2405.18306</td>
 </tr>
-<tr class="odd">
-<td style="text-align: left;">G Lancia, E Riccomagno</td>
-<td style="text-align: right;">2024</td>
-<td style="text-align: left;">Strategies for Rare Population Detection and Sampling: A Methodological Approach in Liguria</td>
-<td style="text-align: left;">arXiv preprint arXiv:</td>
-<td style="text-align: left;">:2405.01342</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">J Storror Carter, M Leonelli, E Riccomagno, G Varando</td>
-<td style="text-align: right;">2024</td>
-<td style="text-align: left;">Learning Staged Trees from Incomplete Data</td>
-<td style="text-align: left;">arXiv e-prints, arXiv:</td>
-<td style="text-align: left;">2405.18306</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">J Storror Carter, M Leonelli, E Riccomagno, A Ugolini</td>
-<td style="text-align: right;">2024</td>
-<td style="text-align: left;">Staged trees for discrete longitudinal data</td>
-<td style="text-align: left;">arXiv e-prints, arXiv:</td>
-<td style="text-align: left;">2401.04297</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">JS Carter, M Leonelli, E Riccomagno, A Ugolini</td>
-<td style="text-align: right;">2024</td>
-<td style="text-align: left;">Staged trees for discrete longitudinal data</td>
-<td style="text-align: left;">arXiv preprint arXiv:</td>
-<td style="text-align: left;">:2401.04297</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">MA Hahn, K Kohn, O Marigliano, T Pajdla</td>
-<td style="text-align: right;">2024</td>
-<td style="text-align: left;">Order-one rolling shutter cameras</td>
-<td style="text-align: left;">arXiv preprint arXiv:</td>
-<td style="text-align: left;">:2403.11295</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">S Berra, A La Torraca, F Benvenuto, S Sommariva</td>
-<td style="text-align: right;">2022</td>
-<td style="text-align: left;">A fast and convergent combined Newton and gradient descent method for computing steady states of chemical reaction networks</td>
-<td style="text-align: left;">arXiv preprint arXiv:</td>
-<td style="text-align: left;">:2212.14252</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">A Bik, O Marigliano</td>
-<td style="text-align: right;">2022</td>
-<td style="text-align: left;">Classifying one-dimensional discrete models with maximum likelihood degree one</td>
-<td style="text-align: left;">arXiv preprint arXiv:</td>
-<td style="text-align: left;">:2205.09547</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">E Pesce, F Rapallo, E Riccomagno, HP Wynn</td>
-<td style="text-align: right;">2021</td>
-<td style="text-align: left;">Circuit bases for randomisation</td>
-<td style="text-align: left;">arXiv preprint arXiv:</td>
-<td style="text-align: left;">:2105.03102</td>
-</tr>
 </tbody>
 </table>
+</div>
+</div>
+</figure>
 </div>
 </div>
 <p>For a full list of publications see the <a href="https://iris.unige.it/simple-search?location=&amp;query=&amp;filter_field=author&amp;filter_type=contains&amp;filter_value=riccomagno&amp;filter_value_display=riccomagno+%2890%29&amp;rpp=10&amp;sort_by=dc.date.issued_dt&amp;order=DESC&amp;submit_search=Aggiorna">IRIS database</a>.</p>
@@ -486,187 +672,71 @@ ul.task-list li input[type="checkbox"] {
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
-window.document.addEventListener("DOMContentLoaded", function (event) {
-  const toggleBodyColorMode = (bsSheetEl) => {
-    const mode = bsSheetEl.getAttribute("data-mode");
-    const bodyEl = window.document.querySelector("body");
-    if (mode === "dark") {
-      bodyEl.classList.add("quarto-dark");
-      bodyEl.classList.remove("quarto-light");
-    } else {
-      bodyEl.classList.add("quarto-light");
-      bodyEl.classList.remove("quarto-dark");
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
     }
-  }
-  const toggleBodyColorPrimary = () => {
-    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
-    if (bsSheetEl) {
-      toggleBodyColorMode(bsSheetEl);
-    }
-  }
-  toggleBodyColorPrimary();  
-  const disableStylesheet = (stylesheets) => {
-    for (let i=0; i < stylesheets.length; i++) {
-      const stylesheet = stylesheets[i];
-      stylesheet.rel = 'prefetch';
-    }
-  }
-  const enableStylesheet = (stylesheets) => {
-    for (let i=0; i < stylesheets.length; i++) {
-      const stylesheet = stylesheets[i];
-      stylesheet.rel = 'stylesheet';
-    }
-  }
-  const manageTransitions = (selector, allowTransitions) => {
-    const els = window.document.querySelectorAll(selector);
-    for (let i=0; i < els.length; i++) {
-      const el = els[i];
-      if (allowTransitions) {
-        el.classList.remove('notransition');
-      } else {
-        el.classList.add('notransition');
-      }
-    }
-  }
-  const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
-    const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
-    const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
-    let newTheme = '';
-    if(darkModeDefault) {
-      newTheme = isAlternate ? baseTheme : alternateTheme;
-    } else {
-      newTheme = isAlternate ? alternateTheme : baseTheme;
-    }
-    const changeGiscusTheme = () => {
-      // From: https://github.com/giscus/giscus/issues/336
-      const sendMessage = (message) => {
-        const iframe = document.querySelector('iframe.giscus-frame');
-        if (!iframe) return;
-        iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
-      }
-      sendMessage({
-        setConfig: {
-          theme: newTheme
-        }
-      });
-    }
-    const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
-    if (isGiscussLoaded) {
-      changeGiscusTheme();
-    }
-  }
-  const toggleColorMode = (alternate) => {
-    // Switch the stylesheets
-    const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
-    manageTransitions('#quarto-margin-sidebar .nav-link', false);
-    if (alternate) {
-      enableStylesheet(alternateStylesheets);
-      for (const sheetNode of alternateStylesheets) {
-        if (sheetNode.id === "quarto-bootstrap") {
-          toggleBodyColorMode(sheetNode);
+    setColorSchemeToggle(hasAlternateSentinel())
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
         }
       }
-    } else {
-      disableStylesheet(alternateStylesheets);
-      toggleBodyColorPrimary();
-    }
-    manageTransitions('#quarto-margin-sidebar .nav-link', true);
-    // Switch the toggles
-    const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
-    for (let i=0; i < toggles.length; i++) {
-      const toggle = toggles[i];
-      if (toggle) {
-        if (alternate) {
-          toggle.classList.add("alternate");     
-        } else {
-          toggle.classList.remove("alternate");
-        }
-      }
-    }
-    // Hack to workaround the fact that safari doesn't
-    // properly recolor the scrollbar when toggling (#1455)
-    if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
-      manageTransitions("body", false);
-      window.scrollTo(0, 1);
-      setTimeout(() => {
-        window.scrollTo(0, 0);
-        manageTransitions("body", true);
-      }, 40);  
-    }
-  }
-  const isFileUrl = () => { 
-    return window.location.protocol === 'file:';
-  }
-  const hasAlternateSentinel = () => {  
-    let styleSentinel = getColorSchemeSentinel();
-    if (styleSentinel !== null) {
-      return styleSentinel === "alternate";
-    } else {
       return false;
     }
-  }
-  const setStyleSentinel = (alternate) => {
-    const value = alternate ? "alternate" : "default";
-    if (!isFileUrl()) {
-      window.localStorage.setItem("quarto-color-scheme", value);
-    } else {
-      localAlternateSentinel = value;
-    }
-  }
-  const getColorSchemeSentinel = () => {
-    if (!isFileUrl()) {
-      const storageValue = window.localStorage.getItem("quarto-color-scheme");
-      return storageValue != null ? storageValue : localAlternateSentinel;
-    } else {
-      return localAlternateSentinel;
-    }
-  }
-  const darkModeDefault = false;
-  let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
-  // Dark / light mode switch
-  window.quartoToggleColorScheme = () => {
-    // Read the current dark / light value 
-    let toAlternate = !hasAlternateSentinel();
-    toggleColorMode(toAlternate);
-    setStyleSentinel(toAlternate);
-    toggleGiscusIfUsed(toAlternate, darkModeDefault);
-  };
-  // Ensure there is a toggle, if there isn't float one in the top right
-  if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
-    const a = window.document.createElement('a');
-    a.classList.add('top-right');
-    a.classList.add('quarto-color-scheme-toggle');
-    a.href = "";
-    a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
-    const i = window.document.createElement("i");
-    i.classList.add('bi');
-    a.appendChild(i);
-    window.document.body.appendChild(a);
-  }
-  // Switch to dark mode if need be
-  if (hasAlternateSentinel()) {
-    toggleColorMode(true);
-  } else {
-    toggleColorMode(false);
-  }
-  const icon = "";
-  const anchorJS = new window.AnchorJS();
-  anchorJS.options = {
-    placement: 'right',
-    icon: icon
-  };
-  anchorJS.add('.anchored');
-  const isCodeAnnotation = (el) => {
-    for (const clz of el.classList) {
-      if (clz.startsWith('code-annotation-')) {                     
-        return true;
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
       }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
     }
-    return false;
-  }
-  const clipboard = new window.ClipboardJS('.code-copy-button', {
-    text: function(trigger) {
-      const codeEl = trigger.previousElementSibling.cloneNode(true);
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
       for (const childEl of codeEl.children) {
         if (isCodeAnnotation(childEl)) {
           childEl.remove();
@@ -674,157 +744,184 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       }
       return codeEl.innerText;
     }
-  });
-  clipboard.on('success', function(e) {
-    // button target
-    const button = e.trigger;
-    // don't keep focus
-    button.blur();
-    // flash "checked"
-    button.classList.add('code-copy-button-checked');
-    var currentTitle = button.getAttribute("title");
-    button.setAttribute("title", "Copied!");
-    let tooltip;
-    if (window.bootstrap) {
-      button.setAttribute("data-bs-toggle", "tooltip");
-      button.setAttribute("data-bs-placement", "left");
-      button.setAttribute("data-bs-title", "Copied!");
-      tooltip = new bootstrap.Tooltip(button, 
-        { trigger: "manual", 
-          customClass: "code-copy-button-tooltip",
-          offset: [0, -8]});
-      tooltip.show();    
-    }
-    setTimeout(function() {
-      if (tooltip) {
-        tooltip.hide();
-        button.removeAttribute("data-bs-title");
-        button.removeAttribute("data-bs-toggle");
-        button.removeAttribute("data-bs-placement");
-      }
-      button.setAttribute("title", currentTitle);
-      button.classList.remove('code-copy-button-checked');
-    }, 1000);
-    // clear code selection
-    e.clearSelection();
-  });
-  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
-    const config = {
-      allowHTML: true,
-      maxWidth: 500,
-      delay: 100,
-      arrow: false,
-      appendTo: function(el) {
-          return el.parentElement;
-      },
-      interactive: true,
-      interactiveBorder: 10,
-      theme: 'quarto',
-      placement: 'bottom-start',
-    };
-    if (contentFn) {
-      config.content = contentFn;
-    }
-    if (onTriggerFn) {
-      config.onTrigger = onTriggerFn;
-    }
-    if (onUntriggerFn) {
-      config.onUntrigger = onUntriggerFn;
-    }
-    window.tippy(el, config); 
-  }
-  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
-  for (var i=0; i<noterefs.length; i++) {
-    const ref = noterefs[i];
-    tippyHover(ref, function() {
-      // use id or data attribute instead here
-      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
-      try { href = new URL(href).hash; } catch {}
-      const id = href.replace(/^#\/?/, "");
-      const note = window.document.getElementById(id);
-      return note.innerHTML;
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
     });
-  }
-  const xrefs = window.document.querySelectorAll('a.quarto-xref');
-  const processXRef = (id, note) => {
-    // Strip column container classes
-    const stripColumnClz = (el) => {
-      el.classList.remove("page-full", "page-columns");
-      if (el.children) {
-        for (const child of el.children) {
-          stripColumnClz(child);
-        }
-      }
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
     }
-    stripColumnClz(note)
-    if (id === null || id.startsWith('sec-')) {
-      // Special case sections, only their first couple elements
-      const container = document.createElement("div");
-      if (note.children && note.children.length > 2) {
-        container.appendChild(note.children[0].cloneNode(true));
-        for (let i = 1; i < note.children.length; i++) {
-          const child = note.children[i];
-          if (child.tagName === "P" && child.innerText === "") {
-            continue;
-          } else {
-            container.appendChild(child.cloneNode(true));
-            break;
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/smig-lab\.github\.io\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
           }
         }
-        if (window.Quarto?.typesetMath) {
-          window.Quarto.typesetMath(container);
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
         }
-        return container.innerHTML
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
       } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
         if (window.Quarto?.typesetMath) {
           window.Quarto.typesetMath(note);
         }
-        return note.innerHTML;
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
       }
-    } else {
-      // Remove any anchor links if they are present
-      const anchorLink = note.querySelector('a.anchorjs-link');
-      if (anchorLink) {
-        anchorLink.remove();
-      }
-      if (window.Quarto?.typesetMath) {
-        window.Quarto.typesetMath(note);
-      }
-      return note.innerHTML;
     }
-  }
-  for (var i=0; i<xrefs.length; i++) {
-    const xref = xrefs[i];
-    tippyHover(xref, undefined, function(instance) {
-      instance.disable();
-      let url = xref.getAttribute('href');
-      let hash = undefined; 
-      if (url.startsWith('#')) {
-        hash = url;
-      } else {
-        try { hash = new URL(url).hash; } catch {}
-      }
-      if (hash) {
-        const id = hash.replace(/^#\/?/, "");
-        const note = window.document.getElementById(id);
-        if (note !== null) {
-          try {
-            const html = processXRef(id, note.cloneNode(true));
-            instance.setContent(html);
-          } finally {
-            instance.enable();
-            instance.show();
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
           }
         } else {
-          // See if we can fetch this
-          fetch(url.split('#')[0])
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
           .then(res => res.text())
           .then(html => {
             const parser = new DOMParser();
             const htmlDoc = parser.parseFromString(html, "text/html");
-            const note = htmlDoc.getElementById(id);
+            const note = htmlDoc.querySelector('main.content');
             if (note !== null) {
-              const html = processXRef(id, note);
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
               instance.setContent(html);
             } 
           }).finally(() => {
@@ -832,185 +929,161 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             instance.show();
           });
         }
-      } else {
-        // See if we can fetch a full url (with no hash to target)
-        // This is a special case and we should probably do some content thinning / targeting
-        fetch(url)
-        .then(res => res.text())
-        .then(html => {
-          const parser = new DOMParser();
-          const htmlDoc = parser.parseFromString(html, "text/html");
-          const note = htmlDoc.querySelector('main.content');
-          if (note !== null) {
-            // This should only happen for chapter cross references
-            // (since there is no id in the URL)
-            // remove the first header
-            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
-              note.children[0].remove();
-            }
-            const html = processXRef(null, note);
-            instance.setContent(html);
-          } 
-        }).finally(() => {
-          instance.enable();
-          instance.show();
-        });
-      }
-    }, function(instance) {
-    });
-  }
-      let selectedAnnoteEl;
-      const selectorForAnnotation = ( cell, annotation) => {
-        let cellAttr = 'data-code-cell="' + cell + '"';
-        let lineAttr = 'data-code-annotation="' +  annotation + '"';
-        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
-        return selector;
-      }
-      const selectCodeLines = (annoteEl) => {
-        const doc = window.document;
-        const targetCell = annoteEl.getAttribute("data-target-cell");
-        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
-        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
-        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
-        const lineIds = lines.map((line) => {
-          return targetCell + "-" + line;
-        })
-        let top = null;
-        let height = null;
-        let parent = null;
-        if (lineIds.length > 0) {
-            //compute the position of the single el (top and bottom and make a div)
-            const el = window.document.getElementById(lineIds[0]);
-            top = el.offsetTop;
-            height = el.offsetHeight;
-            parent = el.parentElement.parentElement;
-          if (lineIds.length > 1) {
-            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
-            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
-            height = bottom - top;
-          }
-          if (top !== null && height !== null && parent !== null) {
-            // cook up a div (if necessary) and position it 
-            let div = window.document.getElementById("code-annotation-line-highlight");
-            if (div === null) {
-              div = window.document.createElement("div");
-              div.setAttribute("id", "code-annotation-line-highlight");
-              div.style.position = 'absolute';
-              parent.appendChild(div);
-            }
-            div.style.top = top - 2 + "px";
-            div.style.height = height + 4 + "px";
-            div.style.left = 0;
-            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
-            if (gutterDiv === null) {
-              gutterDiv = window.document.createElement("div");
-              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
-              gutterDiv.style.position = 'absolute';
-              const codeCell = window.document.getElementById(targetCell);
-              const gutter = codeCell.querySelector('.code-annotation-gutter');
-              gutter.appendChild(gutterDiv);
-            }
-            gutterDiv.style.top = top - 2 + "px";
-            gutterDiv.style.height = height + 4 + "px";
-          }
-          selectedAnnoteEl = annoteEl;
-        }
-      };
-      const unselectCodeLines = () => {
-        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
-        elementsIds.forEach((elId) => {
-          const div = window.document.getElementById(elId);
-          if (div) {
-            div.remove();
-          }
-        });
-        selectedAnnoteEl = undefined;
-      };
-        // Handle positioning of the toggle
-    window.addEventListener(
-      "resize",
-      throttle(() => {
-        elRect = undefined;
-        if (selectedAnnoteEl) {
-          selectCodeLines(selectedAnnoteEl);
-        }
-      }, 10)
-    );
-    function throttle(fn, ms) {
-    let throttle = false;
-    let timer;
-      return (...args) => {
-        if(!throttle) { // first call gets through
-            fn.apply(this, args);
-            throttle = true;
-        } else { // all the others get throttled
-            if(timer) clearTimeout(timer); // cancel #2
-            timer = setTimeout(() => {
-              fn.apply(this, args);
-              timer = throttle = false;
-            }, ms);
-        }
-      };
-    }
-      // Attach click handler to the DT
-      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
-      for (const annoteDlNode of annoteDls) {
-        annoteDlNode.addEventListener('click', (event) => {
-          const clickedEl = event.target;
-          if (clickedEl !== selectedAnnoteEl) {
-            unselectCodeLines();
-            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
-            if (activeEl) {
-              activeEl.classList.remove('code-annotation-active');
-            }
-            selectCodeLines(clickedEl);
-            clickedEl.classList.add('code-annotation-active');
-          } else {
-            // Unselect the line
-            unselectCodeLines();
-            clickedEl.classList.remove('code-annotation-active');
-          }
-        });
-      }
-  const findCites = (el) => {
-    const parentEl = el.parentElement;
-    if (parentEl) {
-      const cites = parentEl.dataset.cites;
-      if (cites) {
-        return {
-          el,
-          cites: cites.split(' ')
-        };
-      } else {
-        return findCites(el.parentElement)
-      }
-    } else {
-      return undefined;
-    }
-  };
-  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
-  for (var i=0; i<bibliorefs.length; i++) {
-    const ref = bibliorefs[i];
-    const citeInfo = findCites(ref);
-    if (citeInfo) {
-      tippyHover(citeInfo.el, function() {
-        var popup = window.document.createElement('div');
-        citeInfo.cites.forEach(function(cite) {
-          var citeDiv = window.document.createElement('div');
-          citeDiv.classList.add('hanging-indent');
-          citeDiv.classList.add('csl-entry');
-          var biblioDiv = window.document.getElementById('ref-' + cite);
-          if (biblioDiv) {
-            citeDiv.innerHTML = biblioDiv.innerHTML;
-          }
-          popup.appendChild(citeDiv);
-        });
-        return popup.innerHTML;
+      }, function(instance) {
       });
     }
-  }
-});
-</script>
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
