@@ -1,0 +1,37 @@
+---
+title: "STATUP 2025"
+date: 2025-12-03
+image: statup.png
+categories:
+  - SMID
+  - event
+abstract: "Ciclo di quattro incontri rivolti agli studenti delle scuole superiore
+per prendere contatto e confidenza con l’analisi statistica e l’interpretazione dei dati."
+---
+
+### Quando
+
+Dal 3 dicembre 2025 al s1 gennaio 2026.
+
+### Programma
+
+Mercoledì 3 dicembre 14.30-16.30 \
+Aula 508 Dipartimento di Matematica.\
+Campioni e questionari. Leggiamo il giornale.\
+Prof.ssa Eva Riccomagno.
+
+Mercoledì 10 dicembre 8.30-10.30 \
+Aula Famagosta, Darsena Economia \
+Diario di bordo. Mafie e porti in Italia. Dati e proiezioni. \
+Libera. Associazioni, nomi e numeri contro le mafie
+
+Mercoledì 14 gennaio 12-14\
+Aula 1B, Dipartimento di Architettura e Design. \
+Tecniche statistiche per l'analisi dati. \
+Prof. Francesco Porro, Prof.ssa Sara Sommariva
+
+Mercoledì 21 gennaio 14.30-16.30 \
+Aula 508 Dipartimento di Matematica.\
+Avventure analitiche nella zona critica. Analisi dati ambientali in artico e alta montagna. \
+Prof. Antonello Provenzano.
+

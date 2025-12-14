@@ -4,3 +4,5 @@
 .Rproj.user/**
 .Rhistory
 .httr-oauth
+
+**/*.quarto_ipynb
