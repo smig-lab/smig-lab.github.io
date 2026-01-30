@@ -1,6 +1,6 @@
 ---
 title: "SMiG Lab"
-subtitle: "Statistical Modeling in Genoa"
+subtitle: "Statistical Modeling Group"
 ---
 
 The research group in Mathematical Statistics studies problems of algebraic statistics and planning of experiments, in particular graphical probabilistic models and optimal planning of experiments for large and big datasets; a recent line of research is on compositional data, investigating applications in the financial and biomedical fields, e.g. proteomic and genomic data, and developing algorithms and open-source software packages.
