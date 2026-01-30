@@ -8,11 +8,11 @@ website:
     background: light
     left: |
       ![](/imgs/smig-logo-square.png){width=20%}
-      Statistical Modeling in Genoa
+      Statistical Modeling Group
     right: "DIMA - Dipartimento di Matematica, Università degli Studi di Genova"
   navbar:
     logo: imgs/smig-logo-small.png
-    logo-alt: "Statistical Modeling in Genoa"
+    logo-alt: "Statistical Modeling Group"
     left:
       - href: index.qmd
         text: Home
@@ -27,7 +27,7 @@ website:
           - publications.qmd
       - about.qmd
   # margin-header: |
-  #   ![Statistical Modelling in Genoa](/imgs/smig-logo-square.png)
+  #   ![Statistical Modelling Group](/imgs/smig-logo-square.png)
   # margin-footer: | 
   #   DIMA - Dipartimento di Matematica\
   #   Università degli Studi di Genova\

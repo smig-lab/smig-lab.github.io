@@ -16,22 +16,21 @@ People working in this area
 <!-- Ricercatore a tempo determinato\ -->
 <!-- [sara.sommariva at unige.it](mailto:sara.sommariva%20at%20unige.it) -->
 Muhammad Shoaib (PhD student)\
-Orlando Marigliano (Marie Skłodowska-Curie Fellow)\
 
 ## Former
 
 Maria Piera Rogantin\  
-Ivano Repetto\
-Federico Carli (currently in Axpo Italia)\
-Elena Pesce (currently in AXA XL)\
-Giacomo Siri (currently in Dompé)\
-Eleonora Saggini (currently math teacher at Gastaldi-Abba)\
-Virginia Pirino (currently senior analytics specialist in Costa Crociere)\
-[Piotr Zwiernik](https://pzwiernik.github.io/) (currently associate professor in Toronto University)\
-Gherardo Varando\
-[Giacomo Lancia](https://www.sbai.uniroma1.it/users/lancia-giacomo) (post-doc at Università La Sapienzqa, Roma)\
-[Giulia Bertagnolli](https://gbertagnolli.github.io) (currently Free University of Bozen-Bolzano)\
-[Jack Storror Carter](https://jackstorrorcarter.github.io/) (Universitat Pompeu Fabra) (post-doc)\
-
+Ivano Repetto\ 
+Federico Carli (currently in Axpo Italia)\ 
+Elena Pesce (currently in AXA XL)\ 
+Giacomo Siri (currently in Dompé)\ 
+Eleonora Saggini (currently math teacher at Gastaldi-Abba)\ 
+Virginia Pirino (currently senior analytics specialist in Costa Crociere)\ 
+[Piotr Zwiernik](https://pzwiernik.github.io/) (currently associate professor in Toronto University)\ 
+Gherardo Varando\ 
+[Giacomo Lancia](https://www.sbai.uniroma1.it/users/lancia-giacomo) (pst-doc at Università La Sapienzqa, Roma)\ 
+[Giulia Bertagnolli](https://gbertagnolli.github.io) (currently jr Assistant Professor at Free University of Bozen-Bolzano)\ 
+[Jack Storror Carter](https://jackstorrorcarter.github.io/) Jack Storror Carter (Utopia Fellow at Universitat Pompeu Fabra)\ 
+[Orlando Marigliano](https://orlandomarigliano.com/) (Marie Skłodowska-Curie Fellow, currently pst-doc at Chalmers, Gothemburg)\ 
 
   
