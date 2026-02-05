@@ -4,6 +4,7 @@ date: 2026-02-28
 categories:
   - SMID
   - event
+  - conference
 abstract: "Ci siamo... sono già venticinque! Nel 2026 il corso di laurea in Statistica Matematica e trattamento Informatico dei Dati compie venticinque anni."
 ---
 
