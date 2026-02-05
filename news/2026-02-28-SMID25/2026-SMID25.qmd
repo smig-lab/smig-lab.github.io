@@ -1,7 +1,6 @@
 ---
 title: "SMID25 "
-date: 2024-10-21
-image: giornata-italiana-statistica.png
+date: 2026-02-28
 categories:
   - SMID
   - event
