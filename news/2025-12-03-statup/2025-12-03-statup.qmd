@@ -32,6 +32,7 @@ Prof. Francesco Porro, Prof.ssa Sara Sommariva
 
 Mercoledì 21 gennaio 14.30-16.30 \
 Aula 508 Dipartimento di Matematica.\
-Avventure analitiche nella zona critica. Analisi dati ambientali in artico e alta montagna. \
+La statistica e le "statistiche" [Slide](./slide_Maria_Piera)
+Avventure analitiche nella zona critica. Analisi dati ambientali in artico e alta montagna [Slide](./slide_Antonello_Provenzale). \
 Prof. Antonello Provenzano.
 
