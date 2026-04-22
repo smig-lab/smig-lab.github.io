@@ -27,12 +27,13 @@ Libera. Associazioni, nomi e numeri contro le mafie
 
 Mercoledì 14 gennaio 12-14\
 Aula 1B, Dipartimento di Architettura e Design. \
-Tecniche statistiche per l'analisi dati. \
+Tecniche statistiche per l'analisi dati. 
+[Slide](./Slide_Sommariva_Porro.pdf) \
 Prof. Francesco Porro, Prof.ssa Sara Sommariva
 
-Mercoledì 21 gennaio 14.30-16.30 \
+Mercoledì 21 gennaio 14.30-16.30\
 Aula 508 Dipartimento di Matematica.\
-La statistica e le "statistiche" [Slide](./slide_Maria_Piera.pdf). \ 
-Avventure analitiche nella zona critica. Analisi dati ambientali in artico e alta montagna [Slide](./slide_Antonello_Provenzale.pdf). \
+La statistica e le "statistiche" [Slide](./slide_Maria_Piera.pdf).\
+Avventure analitiche nella zona critica. Analisi dati ambientali in artico e alta montagna [Slide](./slide_Antonello_Provenzale.pdf).\
 Prof. Antonello Provenzano.
 
