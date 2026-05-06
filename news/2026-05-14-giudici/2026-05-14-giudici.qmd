@@ -1,0 +1,24 @@
+---
+title: "SAFE Artificial Intelligence Seminar"
+date: 2026-05-14
+categories:
+  - seminar
+  - event
+abstract: ""
+author:
+  name: Prof. Paolo Giudici
+  affiliation: University of Pavia
+---
+
+PhD Economics and Quantitative Methods
+
+### When
+
+Thursday, May 14, 2026, at 11:00 AM
+
+### Where
+Sala Lauree - DIEC - University of Genova
+
+### Further details
+
+See the [poster](./2026_locandina_seminario_Giudici.pdf).
