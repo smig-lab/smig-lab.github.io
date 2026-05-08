@@ -1,38 +1,70 @@
+---
+execute:
+  echo: false
+  output: true
+  eval: true
+---
+
 People working in this area
+
+```{r}
+#| output: false
+
+# Look for definition of smig.person() and format.smig.person() in:
+source("people.R")
+
+# !!NOTE: by default `former = FALSE` and `dima = !former`. Explicitly set if necessary.
+people = list(
+  # example generic entry
+  # smig.person("Name", "Surname", dima = FALSE, phd = FALSE, former = FALSE
+  #             role = "...", affiliation = "...", email = "...", website = "...")
+  # current members
+  smig.person("Claudia", "Fassino", role = "Researcher"),
+  smig.person("Eva", "Riccomagno", role = "Ordinary Professor"),
+  smig.person("Francesco", "Porro", role = "Associate Professor"),
+  smig.person("Sara", "Sommariva", role = "Researcher"),
+  smig.person("Muhammad", "Shoaib", phd = TRUE),
+  smig.person("Marco", "Bressan", phd = TRUE),
+  smig.person("Stefano", "Braccini", role = "Research fellow",
+              email = "5597473@studenti.unige.it"),
+  # former members
+  smig.person("Maria Piera", "Rogantin", former = TRUE),
+  smig.person("Ivano", "Repetto", former = TRUE),
+  smig.person("Federico", "Carli", affiliation = "Axpo Italia",  former = TRUE),
+  smig.person("Elena", "Pesce", affiliation = "AXA XL",  former = TRUE),
+  smig.person("Giacomo", "Siri", affiliation = "Dompé",  former = TRUE),
+  smig.person("Eleonora", "Saggini", role = "Math Teacher",
+              affiliation = "Gastaldi-Abba",  former = TRUE),
+  smig.person("Virginia", "Pirino", role = "senior analytics specialist",
+              affiliation = "Costa Crociere",  former = TRUE),
+  smig.person("Piotr", "Zwiernik", role = "associate professor",
+              affiliation = "Toronto University",  former = TRUE),
+  smig.person("Gherardo", "Varando", former = TRUE),
+  smig.person("Giacomo", "Lancia", role = "post-doc",
+              affiliation = "Università La Sapienza, Roma",  former = TRUE),
+  smig.person("Giulia", "Bertagnolli", role = "Jr Assistant Professor",
+              affiliation = "Free University of Bozen-Bolzano",  former = TRUE),
+  smig.person("Jack Storror", "Carter",
+              affiliation = "Utopia Fellow Universitat Pompeu Fabra", former = TRUE),
+  smig.person("Orlando", "Marigliano",
+              role = "Marie Skłodowska-Curie Fellow, post-doc Chalmers",
+              affiliation = "Gothemburg",  former = TRUE)
+)
+former.idx <- which(unname(sapply(people, \(x) x["former"] == "TRUE")))
+```
 
 ## Current
 
-[Claudia Fassino](https://www.dima.unige.it/~fassino/)\
-<!-- Ricercatrice di Analisi Numerica\ -->
-<!-- [fassino at dima.unige.it](mailto:fassino%20at%20dima.unige.it) -->
-[Eva Riccomagno](https://www.dima.unige.it/~riccomag/)\
-<!-- Professor of Statistics\ -->
-<!-- President Consortium IANUA\ -->
-<!-- [riccomag at dima.unige.it](mailto:riccomag%20at%20dima.unige.it) -->
-[Francesco Porro](https://rubrica.unige.it/personale/UkJAU1lp)\
-<!-- Professor of Statistics\ -->
-<!-- [porro at dima.unige.it](mailto:porro%20at%20dima.unige.it) -->
-[Sara Sommariva](https://www.dima.unige.it/~sommariva/)\
-<!-- Ricercatore a tempo determinato\ -->
-<!-- [sara.sommariva at unige.it](mailto:sara.sommariva%20at%20unige.it) -->
-Muhammad Shoaib (PhD student)\
-Marco Bressan (PhD student)\
-Stefano Braccini (Research Fellow)
+```{r}
+#| output: asis
+cat(paste(" - ", sapply(people[-former.idx], format.smig.person), collapse = "\n"))
+```
+
 
 ## Former
 
-Maria Piera Rogantin\
-Ivano Repetto\
-Federico Carli (currently in Axpo Italia)\
-Elena Pesce (currently in AXA XL)\
-Giacomo Siri (currently in Dompé)\
-Eleonora Saggini (currently math teacher at Gastaldi-Abba)\
-Virginia Pirino (currently senior analytics specialist in Costa Crociere)\
-[Piotr Zwiernik](https://pzwiernik.github.io/) (currently associate professor in Toronto University)\
-Gherardo Varando\
-[Giacomo Lancia](https://www.sbai.uniroma1.it/users/lancia-giacomo) (pst-doc at Università La Sapienzqa, Roma)\
-[Giulia Bertagnolli](https://gbertagnolli.github.io) (currently jr Assistant Professor at Free University of Bozen-Bolzano)\
-[Jack Storror Carter](https://jackstorrorcarter.github.io) Jack Storror Carter (Utopia Fellow at Universitat Pompeu Fabra)\
-[Orlando Marigliano](https://orlandomarigliano.com) (Marie Skłodowska-Curie Fellow, currently pst-doc at Chalmers, Gothemburg)\
 
-  
+```{r}
+#| output: asis
+cat(paste(" - ", sapply(people[former.idx], format.smig.person), collapse = "\n"))
+```
