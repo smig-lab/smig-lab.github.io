@@ -1,12 +1,5 @@
 [
   {
-    "objectID": "teaching.html",
-    "href": "teaching.html",
-    "title": "Teaching activity",
-    "section": "",
-    "text": "Primarily, our teaching activity is inside the bachelor degree course: Mathematical Statistics and Data Management."
-  },
-  {
     "objectID": "publications.html",
     "href": "publications.html",
     "title": "Publications",
@@ -28,6 +21,13 @@
     "text": "Pre-prints\n\n\n\n\nTable 2\n\n\n\n\n\n\n\n\n\n\n\n\n\nauthor\nyear\ntitle\njournal\nnumber\n\n\n\n\nM Shoaib, E Riccomagno, M Leonelli, G Varando\n2026\nEstimating Staged Event Tree Models via Hierarchical Clustering on the Simplex\narXiv preprint arXiv:\n:2603.15568\n\n\nG Pistone, F Rapallo, E Riccomagno\n2026\nThe Fisher score on the closed simplex\narXiv preprint arXiv:\n:2602.07665\n\n\nA Mapelli, L Carini, F Ieva, S Sommariva\n2026\nA neighbour selection approach for identifying differential networks in conditional functional graphical models\narXiv preprint arXiv:\n:2601.02292\n\n\nM Shoaib, ZU Rehman, M Qasim\n2026\nComparison of Maximum Likelihood Classification Before and After Applying Weierstrass Transform\narXiv preprint arXiv:\n:2601.04808\n\n\nM Shoaib, E Riccomagno, M Leonelli, G Varando\n2026\nEstimating Staged Event Tree Models via Hierarchical Clustering on the Simplex\narXiv preprint arXiv:\n:2603.15568\n\n\nO Marigliano, E Riccomagno\n2025\nMarkov Combinations of Discrete Statistical Models\narXiv preprint arXiv:\n:2509.18983\n\n\nF Porro, F Rapallo, S Sommariva\n2025\nTesting for a common subspace in compositional datasets with structural zeros\narXiv preprint arXiv:\n:2510.22853\n\n\nC Agostinelli, A Basu, G Bertagnolli, AK Kuchibhotla\n2025\nA Weighted Likelihood Approach Based on Statistical Data Depths\narXiv preprint arXiv:\n:2507.16998\n\n\nJS Carter, C Molinari\n2025\nExistence and optimisation of the partial correlation graphical lasso\narXiv preprint arXiv:\n:2510.25712\n\n\nJS Carter\n2025\nExistence of the solution to the graphical lasso\narXiv preprint arXiv:\n:2505.20005\n\n\n\n\n\n\n\n\nFor a full list of publications see the IRIS database."
   },
   {
+    "objectID": "news/trees4cat.html",
+    "href": "news/trees4cat.html",
+    "title": "Trees4cat Workshop",
+    "section": "",
+    "text": "The trees4cat Workshop (Trees for Categorical Data) aims at bringing together researchers working on the analysis of categorical data with complex, asymmetric dependence and sample space structures. This meeting builds up on two past meetings on the topic: The 1st UK Conference on Chain Event Graphs organized in 2019 at the University of Glasgow and the Conference on Reasoning with Asymmetric and Context-Specific Graphs organized in 2021 by Baylor University and held online.\nWhen: 21-23 October 2024\nWhere: University of Genova\nConfirmed Speakers:\n\nEliana Duarte\nManuele Leonelli\nJim Smith\nLiam Solus\n\nSee the workshop website for more details."
+  },
+  {
     "objectID": "news/ig-short-course.html",
     "href": "news/ig-short-course.html",
     "title": "Short course on Non-parametric Information Geometry",
@@ -35,11 +35,74 @@
     "text": "For the program and materials of this short course, see the course webpage."
   },
   {
-    "objectID": "news/2025-12-03-statup/2025-12-03-statup.html",
-    "href": "news/2025-12-03-statup/2025-12-03-statup.html",
-    "title": "STATUP 2025",
+    "objectID": "news/2026-05-14-giudici/2026-05-14-giudici.html",
+    "href": "news/2026-05-14-giudici/2026-05-14-giudici.html",
+    "title": "SAFE Artificial Intelligence Seminar",
     "section": "",
-    "text": "Quando\nDal 3 dicembre 2025 al 21 gennaio 2026.\n\n\nProgramma\nMercoledì 3 dicembre 14.30-16.30\nAula 508 Dipartimento di Matematica.\nCampioni e questionari. Leggiamo il giornale. Slide.\nProf.ssa Eva Riccomagno.\nMercoledì 10 dicembre 8.30-10.30\nAula Famagosta, Darsena Economia\nDiario di bordo. Mafie e porti in Italia. Dati e proiezioni Slide.\nLibera. Associazioni, nomi e numeri contro le mafie\nMercoledì 14 gennaio 12-14\nAula 1B, Dipartimento di Architettura e Design.\nTecniche statistiche per l’analisi dati. Slide\nProf. Francesco Porro, Prof.ssa Sara Sommariva\nMercoledì 21 gennaio 14.30-16.30\nAula 508 Dipartimento di Matematica.\nLa statistica e le “statistiche” Slide.\nAvventure analitiche nella zona critica. Analisi dati ambientali in artico e alta montagna Slide.\nProf. Antonello Provenzano."
+    "text": "PhD Economics and Quantitative Methods\n\nWhen\nThursday, May 14, 2026, at 11:00 AM\n\n\nWhere\nSala Lauree - DIEC - University of Genova\n\n\nFurther details\nSee the poster."
+  },
+  {
+    "objectID": "news/2024-03-01-seminar-bertagnolli/index.html",
+    "href": "news/2024-03-01-seminar-bertagnolli/index.html",
+    "title": "Ranks, Centers, and dispersion measures for networked and metric data",
+    "section": "",
+    "text": "References\n\nOja, Hannu. 1983. “Descriptive Statistics for Multivariate Distributions.” Statistics & Probability Letters 1 (6): 327–32. https://doi.org/10.1016/0167-7152(83)90054-8.\n\n\nTukey, John W. 1975. “Mathematics and the Picturing of Data.” Proceedings of the International Congress of Mathematicians, Vancouver, 1975 2: 523–31."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "SMiG Lab",
+    "section": "",
+    "text": "The research group in Mathematical Statistics studies problems of algebraic statistics and planning of experiments, in particular graphical probabilistic models and optimal planning of experiments for large and big datasets; a recent line of research is on compositional data, investigating applications in the financial and biomedical fields, e.g. proteomic and genomic data, and developing algorithms and open-source software packages."
+  },
+  {
+    "objectID": "people.html",
+    "href": "people.html",
+    "title": "SMiG Lab",
+    "section": "",
+    "text": "People working in this area"
+  },
+  {
+    "objectID": "people.html#current",
+    "href": "people.html#current",
+    "title": "SMiG Lab",
+    "section": "Current",
+    "text": "Current\n\nClaudia Fassino, Researcher at University of Genova. Email.\nEva Riccomagno, Ordinary Professor at University of Genova. Email.\nFrancesco Porro, Associate Professor at University of Genova. Email.\nSara Sommariva, Researcher at University of Genova. Email.\nMuhammad Shoaib, PhD student at University of Genova. Email.\nMarco Bressan, PhD student at University of Genova. Email.\nStefano Braccini, Research fellow at University of Genova. Email."
+  },
+  {
+    "objectID": "people.html#former",
+    "href": "people.html#former",
+    "title": "SMiG Lab",
+    "section": "Former",
+    "text": "Former\n\nMaria Piera Rogantin.\nIvano Repetto.\nFederico Carli, Axpo Italia.\nElena Pesce, AXA XL.\nGiacomo Siri, Dompé.\nEleonora Saggini, Math Teacher at Gastaldi-Abba.\nVirginia Pirino, senior analytics specialist at Costa Crociere.\nPiotr Zwiernik, associate professor at Toronto University.\nGherardo Varando.\nGiacomo Lancia, post-doc at Università La Sapienza, Roma.\nGiulia Bertagnolli, Jr Assistant Professor at Free University of Bozen-Bolzano.\nJack Storror Carter, Utopia Fellow Universitat Pompeu Fabra.\nOrlando Marigliano, Marie Skłodowska-Curie Fellow, post-doc Chalmers at Gothemburg."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "Via Dodecaneso 35 16146 Genova (GE) DIMA - Dipartimento di Matematica Università degli Studi di Genova"
+  },
+  {
+    "objectID": "events.html",
+    "href": "events.html",
+    "title": "News & events",
+    "section": "",
+    "text": "SAFE Artificial Intelligence Seminar\n\n\n\nseminar\n\nevent\n\n\n\n\n\n\n\n\n\nMay 14, 2026\n\n\nProf. Paolo Giudici\n\n\n\n\n\n\n\n\n\n\n\n\nSMID25\n\n\n\nSMID\n\nevent\n\nconference\n\n\n\nCi siamo… sono già venticinque! Nel 2026 il corso di laurea in Statistica Matematica e trattamento Informatico dei Dati compie venticinque anni.\n\n\n\n\n\nFeb 28, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nSTATUP 2025\n\n\n\nSMID\n\nevent\n\n\n\nCiclo di quattro incontri rivolti agli studenti delle scuole superiore per prendere contatto e confidenza con l’analisi statistica e l’interpretazione dei dati.\n\n\n\n\n\nDec 3, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nStatistics for innovation: Intermediate conference of the Italian Statistical Society\n\n\n\nconference\n\n\n\n\n\n\n\n\n\nJun 16, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nGiornata della Statistica 2024\n\n\n\nSMID\n\nevent\n\n\n\nIn occasione della Giornata Italiana della Statistica, presentazione di esperienze di studio e lavoro di laureati SMID.\n\n\n\n\n\nOct 21, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nTrees4cat Workshop\n\n\n\nworkshop\n\n\n\n\n\n\n\n\n\nOct 21, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nGroup-wise comparison of connectivity graphs\n\n\n\nseminar\n\n\n\n\n\n\n\n\n\nApr 24, 2024\n\n\nSara Sommariva\n\n\n\n\n\n\n\n\n\n\n\n\nStrategies for Rare Population Detection and Sampling: A Methodological Approach in Liguria\n\n\n\nseminar\n\n\n\n\n\n\n\n\n\nMar 26, 2024\n\n\nGiacomo Lancia\n\n\n\n\n\n\n\n\n\n\n\n\nRanks, Centers, and dispersion measures for networked and metric data\n\n\n\nseminar\n\n\n\nAt the basis of non-parametric statistics there is the concept of ranks, which presumes the possibility of ordering data points. A natural order relation on a multivariate…\n\n\n\n\n\nMar 1, 2024\n\n\nGiulia Bertagnolli\n\n\n\n\n\n\n\n\n\n\n\n\nShort course on Non-parametric Information Geometry\n\n\n\nlectures\n\nseminar\n\nguest\n\n\n\nLectures and seminar series on non-parametric information geometry.\n\n\n\n\n\nNov 28, 2022\n\n\nGiovanni Pistone\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "research.html#network-science",
+    "href": "research.html#network-science",
+    "title": "Research",
+    "section": "Network Science",
+    "text": "Network Science"
+  },
+  {
+    "objectID": "research.html#information-geometry",
+    "href": "research.html#information-geometry",
+    "title": "Research",
+    "section": "Information Geometry",
+    "text": "Information Geometry"
   },
   {
     "objectID": "news/2024-05-14-sis-genova/index.html",
@@ -56,32 +119,18 @@
     "text": "Main conference\nWhen: June, 16–18 2025\nWhere: Genoa\nWhat: The conference aims at discussing the state-of-the-art on innovations in statistics and statistics for innovations. For more details see the SIS 2025 website.\n\nSatellite\nWhen: June, 19 2025\nWhere: Pavia\nWhat: Details will be available soon."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "SMiG Lab",
+    "objectID": "news/2026-02-28-SMID25/2026-SMID25.html",
+    "href": "news/2026-02-28-SMID25/2026-SMID25.html",
+    "title": "SMID25",
     "section": "",
-    "text": "The research group in Mathematical Statistics studies problems of algebraic statistics and planning of experiments, in particular graphical probabilistic models and optimal planning of experiments for large and big datasets; a recent line of research is on compositional data, investigating applications in the financial and biomedical fields, e.g. proteomic and genomic data, and developing algorithms and open-source software packages."
+    "text": "Vogliamo sfruttare l’occasione per ritrovarci, festeggiarci e fare orientamento e anche un po’ di scienza!\n\nQuando\n28 febbraio 2026 1 e 2 marzo 2026\n\n\nProgramma\nI primi festeggiamenti sono previsti il 28 febbraio, l’uno e il due marzo.\nLaureati, studenti, docenti e simpatizzanti SMID sono invitati!\n\n\nPagina web di SMID25\nSMID25 website"
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "news/2025-12-03-statup/2025-12-03-statup.html",
+    "href": "news/2025-12-03-statup/2025-12-03-statup.html",
+    "title": "STATUP 2025",
     "section": "",
-    "text": "Via Dodecaneso 35 16146 Genova (GE) DIMA - Dipartimento di Matematica Università degli Studi di Genova"
-  },
-  {
-    "objectID": "events.html",
-    "href": "events.html",
-    "title": "News & events",
-    "section": "",
-    "text": "SMID25\n\n\n\nSMID\n\nevent\n\nconference\n\n\n\nCi siamo… sono già venticinque! Nel 2026 il corso di laurea in Statistica Matematica e trattamento Informatico dei Dati compie venticinque anni.\n\n\n\n\n\nFeb 28, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nSTATUP 2025\n\n\n\nSMID\n\nevent\n\n\n\nCiclo di quattro incontri rivolti agli studenti delle scuole superiore per prendere contatto e confidenza con l’analisi statistica e l’interpretazione dei dati.\n\n\n\n\n\nDec 3, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nStatistics for innovation: Intermediate conference of the Italian Statistical Society\n\n\n\nconference\n\n\n\n\n\n\n\n\n\nJun 16, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nGiornata della Statistica 2024\n\n\n\nSMID\n\nevent\n\n\n\nIn occasione della Giornata Italiana della Statistica, presentazione di esperienze di studio e lavoro di laureati SMID.\n\n\n\n\n\nOct 21, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nTrees4cat Workshop\n\n\n\nworkshop\n\n\n\n\n\n\n\n\n\nOct 21, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nGroup-wise comparison of connectivity graphs\n\n\n\nseminar\n\n\n\n\n\n\n\n\n\nApr 24, 2024\n\n\nSara Sommariva\n\n\n\n\n\n\n\n\n\n\n\n\nStrategies for Rare Population Detection and Sampling: A Methodological Approach in Liguria\n\n\n\nseminar\n\n\n\n\n\n\n\n\n\nMar 26, 2024\n\n\nGiacomo Lancia\n\n\n\n\n\n\n\n\n\n\n\n\nRanks, Centers, and dispersion measures for networked and metric data\n\n\n\nseminar\n\n\n\nAt the basis of non-parametric statistics there is the concept of ranks, which presumes the possibility of ordering data points. A natural order relation on a multivariate…\n\n\n\n\n\nMar 1, 2024\n\n\nGiulia Bertagnolli\n\n\n\n\n\n\n\n\n\n\n\n\nShort course on Non-parametric Information Geometry\n\n\n\nlectures\n\nseminar\n\nguest\n\n\n\nLectures and seminar series on non-parametric information geometry.\n\n\n\n\n\nNov 28, 2022\n\n\nGiovanni Pistone\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "news/2024-03-01-seminar-bertagnolli/index.html",
-    "href": "news/2024-03-01-seminar-bertagnolli/index.html",
-    "title": "Ranks, Centers, and dispersion measures for networked and metric data",
-    "section": "",
-    "text": "References\n\nOja, Hannu. 1983. “Descriptive Statistics for Multivariate Distributions.” Statistics & Probability Letters 1 (6): 327–32. https://doi.org/10.1016/0167-7152(83)90054-8.\n\n\nTukey, John W. 1975. “Mathematics and the Picturing of Data.” In Proceedings of the International Congress of Mathematicians, Vancouver, 1975, 2:523–31."
+    "text": "Quando\nDal 3 dicembre 2025 al 21 gennaio 2026.\n\n\nProgramma\nMercoledì 3 dicembre 14.30-16.30\nAula 508 Dipartimento di Matematica.\nCampioni e questionari. Leggiamo il giornale. Slide.\nProf.ssa Eva Riccomagno.\nMercoledì 10 dicembre 8.30-10.30\nAula Famagosta, Darsena Economia\nDiario di bordo. Mafie e porti in Italia. Dati e proiezioni Slide.\nLibera. Associazioni, nomi e numeri contro le mafie\nMercoledì 14 gennaio 12-14\nAula 1B, Dipartimento di Architettura e Design.\nTecniche statistiche per l’analisi dati. Slide\nProf. Francesco Porro, Prof.ssa Sara Sommariva\nMercoledì 21 gennaio 14.30-16.30\nAula 508 Dipartimento di Matematica.\nLa statistica e le “statistiche” Slide.\nAvventure analitiche nella zona critica. Analisi dati ambientali in artico e alta montagna Slide.\nProf. Antonello Provenzano."
   },
   {
     "objectID": "news/2024-10-21-gis/2024-10-21-gis.html",
@@ -91,52 +140,10 @@
     "text": "Il 21 ottobre 2024, il corso di laurea in Statistica Matemtica e trattamento Informatico dei Dati (SMID) dell’Università di Genova, celebra la Giornata Italiana della Statistica con la presentazione di esperienze di studio e lavoro di laureati SMID.\n\nQuando\n21 ottobre 2024\n\n\nProgramma\n\nSMID: un po’ di storia, Maria Piera Rogantin\nSbagliando si impara, parola di consulente, Iacopo Arata\nTra Dati e Continenti: Un Viaggio da SMID al Mondo, Manuele Leonelli\n\nTutti gli studenti, docenti e simpatizzanti SMID sono invitati!\n\nScarica qui la locandina."
   },
   {
-    "objectID": "news/2026-02-28-SMID25/2026-SMID25.html",
-    "href": "news/2026-02-28-SMID25/2026-SMID25.html",
-    "title": "SMID25",
+    "objectID": "teaching.html",
+    "href": "teaching.html",
+    "title": "Teaching activity",
     "section": "",
-    "text": "Vogliamo sfruttare l’occasione per ritrovarci, festeggiarci e fare orientamento e anche un po’ di scienza!\n\nQuando\n28 febbraio 2026 1 e 2 marzo 2026\n\n\nProgramma\nI primi festeggiamenti sono previsti il 28 febbraio, l’uno e il due marzo.\nLaureati, studenti, docenti e simpatizzanti SMID sono invitati!\n\n\nPagina web di SMID25\nSMID25 website"
-  },
-  {
-    "objectID": "news/trees4cat.html",
-    "href": "news/trees4cat.html",
-    "title": "Trees4cat Workshop",
-    "section": "",
-    "text": "The trees4cat Workshop (Trees for Categorical Data) aims at bringing together researchers working on the analysis of categorical data with complex, asymmetric dependence and sample space structures. This meeting builds up on two past meetings on the topic: The 1st UK Conference on Chain Event Graphs organized in 2019 at the University of Glasgow and the Conference on Reasoning with Asymmetric and Context-Specific Graphs organized in 2021 by Baylor University and held online.\nWhen: 21-23 October 2024\nWhere: University of Genova\nConfirmed Speakers:\n\nEliana Duarte\nManuele Leonelli\nJim Smith\nLiam Solus\n\nSee the workshop website for more details."
-  },
-  {
-    "objectID": "people.html",
-    "href": "people.html",
-    "title": "SMiG Lab",
-    "section": "",
-    "text": "People working in this area"
-  },
-  {
-    "objectID": "people.html#current",
-    "href": "people.html#current",
-    "title": "SMiG Lab",
-    "section": "Current",
-    "text": "Current\nClaudia Fassino\n  Eva Riccomagno\n   Francesco Porro\n  Sara Sommariva\n  Muhammad Shoaib (PhD student)\nMarco Bressan (PhD student)\nStefano Braccini (Research Fellow)"
-  },
-  {
-    "objectID": "people.html#former",
-    "href": "people.html#former",
-    "title": "SMiG Lab",
-    "section": "Former",
-    "text": "Former\nMaria Piera Rogantin\nIvano Repetto\nFederico Carli (currently in Axpo Italia)\nElena Pesce (currently in AXA XL)\nGiacomo Siri (currently in Dompé)\nEleonora Saggini (currently math teacher at Gastaldi-Abba)\nVirginia Pirino (currently senior analytics specialist in Costa Crociere)\nPiotr Zwiernik (currently associate professor in Toronto University)\nGherardo Varando\nGiacomo Lancia (pst-doc at Università La Sapienzqa, Roma)\nGiulia Bertagnolli (currently jr Assistant Professor at Free University of Bozen-Bolzano)\nJack Storror Carter Jack Storror Carter (Utopia Fellow at Universitat Pompeu Fabra)\nOrlando Marigliano (Marie Skłodowska-Curie Fellow, currently pst-doc at Chalmers, Gothemburg)"
-  },
-  {
-    "objectID": "research.html#network-science",
-    "href": "research.html#network-science",
-    "title": "Research",
-    "section": "Network Science",
-    "text": "Network Science"
-  },
-  {
-    "objectID": "research.html#information-geometry",
-    "href": "research.html#information-geometry",
-    "title": "Research",
-    "section": "Information Geometry",
-    "text": "Information Geometry"
+    "text": "Primarily, our teaching activity is inside the bachelor degree course: Mathematical Statistics and Data Management."
   }
 ]
