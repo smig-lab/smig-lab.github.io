@@ -20,7 +20,7 @@ people = list(
   #             role = "...", affiliation = "...", email = "...", website = "...")
   # current members
   smig.person("Claudia", "Fassino", role = "Researcher"),
-  smig.person("Eva", "Riccomagno", role = "Ordinary Professor"),
+  smig.person("Eva", "Riccomagno", role = "Full Professor"),
   smig.person("Francesco", "Porro", role = "Associate Professor"),
   smig.person("Sara", "Sommariva", role = "Researcher"),
   smig.person("Muhammad", "Shoaib", phd = TRUE),

@@ -21,4 +21,4 @@ Sala Lauree - DIEC - University of Genova
 
 ### Further details
 
-See the [poster](./2026_locandina_seminario_Giudici.pdf).
+See the [poster](./2026_locandina_seminario_Giudici.pdf). The [slides](./Slides_SAFE_AI.pdf) are also available.

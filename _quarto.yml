@@ -3,6 +3,7 @@ project:
 
 website:
   title: "SMiG Lab"
+  site-url: https://smig-lab.github.io
   favicon: imgs/smig-lab-favicon.png  
   page-footer: 
     background: light
