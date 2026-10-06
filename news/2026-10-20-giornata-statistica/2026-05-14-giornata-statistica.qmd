@@ -1,0 +1,51 @@
+---
+title: "Giornata della Statistica 2026"
+date: 2026-10-20
+image: gis.png
+categories:
+  - event
+subtitle: "Secondo incontro del ciclo 'Scienze, una storia infinita'"
+abstract: ""
+---
+
+Torna anche quest'anno, il **20 ottobre 2026**, l'evento divulgazione statistica, con un doppio appuntamento:
+
+* la tavola rotonda della sessione mattutina, rivolta a tutta la cittadinanza e in particolar modo agli studenti delle scuole superiori;
+
+* la sessione serale ospiterà un seminario seguito dall'*AperiSMID*, un momento conviviale rivolto a tutti gli studenti, i docenti e i simpatizzanti del corso di laurea in **Statistica Matematica e Trattamento Informatico dei Dati**.
+
+[Scarica la locandina](GIS26.pdf){class="btn btn-primary"}
+[Visita il sito dedicato](https://sites.google.com/view/giornata-statistica-2026-unige/home){class="btn btn-secondary"}
+
+## Programma
+
+### Sessione mattutina
+
+**Ore 10.30 -12.30** **---** ***Chiesa di San Salvatore***
+
+**Ingresso libero**
+
+**Tavola Rotonda:**
+*Dialogo tra intelligenza artificiale e statistica*
+
+Intervengono:
+
+- prof. [Luca Oneto](https://www.lucaoneto.com/home), Università di Genova;
+
+- dott. [Dmitri Petratchenko](https://rubrica.unige.it/personale/UkJCWFNv), CEO di Valos s.r.l.;
+
+- prof. [Piercesare Secchi](https://onlineservices.polimi.it/manifesti/manifesti/controller/ricerche/RicercaPerDocentiPublic.do?evn_PRODOTTI=evento&lang=IT&k_doc=4620), Politecnico di Milano;
+
+- dott.ssa Monica Perez, ISTAT.
+
+Modera: [Sara Sommariva](https://rubrica.unige.it/personale/VkFBXVNg), Università di Genova.
+
+### Sessione serale
+
+
+**Ore 18.00 - 21.30** **---** ***Dipartimento di Matematica***
+
+**Ingresso con prenotazione**
+
+
+Seminario e **aperitivo**.
